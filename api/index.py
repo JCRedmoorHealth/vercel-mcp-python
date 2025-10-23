@@ -2,6 +2,8 @@
 import json
 import datetime
 from http.server import BaseHTTPRequestHandler
+import pandas as pd
+import os
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -63,6 +65,19 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-API-Key')
         self.end_headers()
 
+def _read_board(self, board_name: str) -> Any:
+    path = './Boards data'  # Ensure this matches the path used in get_board.py
+    file_path = os.path.join(path, f"{board_name}.csv")
+    try:
+        df = pd.read_csv(file_path)
+        # Convert df to a dictionary or string representation as needed
+        print(f"Successfully read board data from {file_path}")
+        return df.to_dict(orient='records')
+
+    except FileNotFoundError:
+        print(f"File {file_path} not found.")
+        return None
+
 def handle_mcp_request(request_data):
     """Handle MCP protocol requests"""
     method = request_data.get("method")
@@ -100,26 +115,11 @@ def handle_mcp_request(request_data):
                 }
             },
             {
-                "name": "add_numbers",
-                "description": "Add two numbers together", 
-                "inputSchema": {
-                    "type": "object",
-                    "properties": {
-                        "a": {"type": "integer", "description": "First number"},
-                        "b": {"type": "integer", "description": "Second number"}
-                    },
-                    "required": ["a", "b"]
-                }
-            },
-            {
-                "name": "get_weather_info",
-                "description": "Get weather information for a location (mock implementation)",
+                "name": "get_boards_info",
+                "description": "Get all Monday Board data",
                 "inputSchema": {
                     "type": "object", 
-                    "properties": {
-                        "location": {"type": "string", "description": "The location to get weather for"}
-                    },
-                    "required": ["location"]
+                    "properties": {}
                 }
             }
         ]
@@ -140,13 +140,19 @@ def handle_mcp_request(request_data):
         elif tool_name == "get_time":
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
-        elif tool_name == "add_numbers":
-            a = arguments.get("a", 0)
-            b = arguments.get("b", 0)
-            result = a + b
-        elif tool_name == "get_weather_info":
-            location = arguments.get("location", "")
-            result = f"The weather in {location} is sunny and 72°F"
+        elif tool_name == "get_boards_info":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            all_boards = {}
+            for file in os.listdir(path):
+                if file.endswith('.csv'):
+                    board_name = file[:-4]  # Remove .csv extension
+                    board_data = _read_board(board_name)
+                    if board_data is not None:
+                        all_boards[board_name] = board_data
+            if not all_boards:
+                result = "No boards found."
+            else:
+                result = all_boards
         else:
             return {
                 "jsonrpc": "2.0",

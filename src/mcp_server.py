@@ -2,6 +2,8 @@
 import datetime
 import json
 from typing import Dict, Any, List
+import os
+import pandas as pd
 
 class MCPServer:
     """Simple MCP server implementation for Vercel deployment"""
@@ -27,27 +29,12 @@ class MCPServer:
                     "properties": {}
                 }
             },
-            "add_numbers": {
-                "name": "add_numbers",
-                "description": "Add two numbers together", 
-                "inputSchema": {
-                    "type": "object",
-                    "properties": {
-                        "a": {"type": "integer", "description": "First number"},
-                        "b": {"type": "integer", "description": "Second number"}
-                    },
-                    "required": ["a", "b"]
-                }
-            },
-            "get_weather_info": {
-                "name": "get_weather_info",
-                "description": "Get weather information for a location (mock implementation)",
+            "get_boards_info": {
+                "name": "get_boards_info",
+                "description": "Get all monday board data",
                 "inputSchema": {
                     "type": "object", 
-                    "properties": {
-                        "location": {"type": "string", "description": "The location to get weather for"}
-                    },
-                    "required": ["location"]
+                    "properties": {}
                 }
             }
         }
@@ -111,13 +98,23 @@ class MCPServer:
         elif tool_name == "get_time":
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
-        elif tool_name == "add_numbers":
-            a = arguments.get("a", 0)
-            b = arguments.get("b", 0)
-            result = a + b
-        elif tool_name == "get_weather_info":
-            location = arguments.get("location", "")
-            result = f"The weather in {location} is sunny and 72°F"
+
+        elif tool_name == "get_boards_info":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            all_boards = {}
+            try:
+                for file in os.listdir(path):
+                    if file.endswith('.csv'):
+                        board_name = file[:-4]  # Remove .csv extension
+                        board_data = self._read_board(board_name)
+                        if board_data is not None:
+                            all_boards[board_name] = board_data
+                if not all_boards:
+                    return None
+                result = all_boards
+            except FileNotFoundError:
+                print(f"Directory {path} not found.")
+                return None
         else:
             return self._create_error_response(-32601, f"Tool not found: {tool_name}")
         
@@ -128,6 +125,20 @@ class MCPServer:
                 "content": [{"type": "text", "text": str(result)}]
             }
         }
+    
+    def _read_board(self, board_name: str) -> Any:
+        path = './Boards data'  # Ensure this matches the path used in get_board.py
+        file_path = os.path.join(path, f"{board_name}.csv")
+        try:
+            df = pd.read_csv(file_path)
+            # Convert df to a dictionary or string representation as needed
+            print(f"Successfully read board data from {file_path}")
+            return df.to_dict(orient='records')
+    
+        except FileNotFoundError:
+            print(f"File {file_path} not found.")
+            return None
+
     
     def _handle_resources_list(self, request: Dict[str, Any]) -> Dict[str, Any]:
         return {
