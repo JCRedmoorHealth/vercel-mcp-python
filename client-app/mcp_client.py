@@ -323,13 +323,9 @@ def main():
             result = client.call_tool("get_time", {})
             console.print(f"Time: {result}")
             
-            # Test add_numbers
-            result = client.call_tool("add_numbers", {"a": 15, "b": 25})
-            console.print(f"Add Numbers (15 + 25): {result}")
-            
-            # Test get_weather_info
-            result = client.call_tool("get_weather_info", {"location": "San Francisco"})
-            console.print(f"Weather: {result}")
+            # Test get_board_info
+            result = client.call_tool("get_boards_info", {})
+            console.print(f"Board Info: {result}")
             
             console.print("✅ All tools tested successfully!")
         
