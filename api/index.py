@@ -65,7 +65,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-API-Key')
         self.end_headers()
 
-def _read_board(self, board_name: str) -> Any:
+def _read_board(board_name: str):
     path = './Boards data'  # Ensure this matches the path used in get_board.py
     file_path = os.path.join(path, f"{board_name}.csv")
     try:
