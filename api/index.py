@@ -4,6 +4,8 @@ import datetime
 from http.server import BaseHTTPRequestHandler
 import pandas as pd
 import os
+from docx import Document
+import PyPDF2
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -78,6 +80,35 @@ def _read_board(board_name: str):
         print(f"File {file_path} not found.")
         return None
 
+def _read_document(document_name: str):
+    path = './document data'  # Ensure this matches the path used in get_board.py
+    file_path = os.path.join(path, f"{document_name}.docx")
+    try:
+        doc = Document(file_path)
+        fullText = []
+        for para in doc.paragraphs:
+            fullText.append(para.text)
+        return '\n'.join(fullText)
+
+    except FileNotFoundError:
+        print(f"File {file_path} not found.")
+        return None
+
+def _read_pdf(pdf_name: str):
+    text = ""
+    path = './document data'  # Ensure this matches the path used in get_board.py
+    file_path = os.path.join(path, f"{pdf_name}.pdf")
+    try:
+        with open(file_path, 'rb') as file:
+            reader = PyPDF2.PdfReader(file)
+            for page in reader.pages:
+                text += page.extract_text() or ""
+        return text
+
+    except FileNotFoundError:
+        print(f"File {file_path} not found.")
+        return None
+    
 def handle_mcp_request(request_data):
     """Handle MCP protocol requests"""
     method = request_data.get("method")
@@ -115,10 +146,18 @@ def handle_mcp_request(request_data):
                 }
             },
             {
-                "name": "get_boards_info",
-                "description": "Get all Monday Board data",
+                "name": "get_SMMSMasterlist", 
+                "description": "Get the Monday SMMS Masterlist board data",
                 "inputSchema": {
-                    "type": "object", 
+                    "type": "object",
+                    "properties": {}
+                }
+            },
+            {
+                "name": "get_webinarAttendees", 
+                "description": "Get the Monday webinar attendees board data",
+                "inputSchema": {
+                    "type": "object",
                     "properties": {}
                 }
             }
@@ -140,19 +179,18 @@ def handle_mcp_request(request_data):
         elif tool_name == "get_time":
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
-        elif tool_name == "get_boards_info":
-            path = './Boards data'  # Ensure this matches the path used in get_board.py
-            all_boards = {}
-            for file in os.listdir(path):
-                if file.endswith('.csv'):
-                    board_name = file[:-4]  # Remove .csv extension
-                    board_data = _read_board(board_name)
-                    if board_data is not None:
-                        all_boards[board_name] = board_data
-            if not all_boards:
-                result = "No boards found."
-            else:
-                result = all_boards
+        elif tool_name == "get_SMMSMasterlist":
+            path = './Board string'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "SMMSMasterList.txt")
+            with open(file_path, "r", encoding='utf-8') as file:
+                # Read the contents of the file
+                result = file.read()
+        elif tool_name == "get_webinarAttendees":
+            path = './Board string'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "webinarAttendees.txt")
+            with open(file_path, "r", encoding='utf-8') as file:
+                # Read the contents of the file
+                result = file.read()
         else:
             return {
                 "jsonrpc": "2.0",
