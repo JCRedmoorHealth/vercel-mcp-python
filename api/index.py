@@ -180,11 +180,17 @@ def handle_mcp_request(request_data):
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
         elif tool_name == "get_SMMSMasterlist":
-            path = './Board string'  # Ensure this matches the path used in get_board.py
-            file_path = os.path.join(path, "SMMSMasterList.text")
-            with open(file_path, "r", encoding='utf-8') as file:
-                # Read the contents of the file
-                result = file.read()
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, f"SMMSMasterList.csv")
+            try:
+                df = pd.read_csv(file_path)
+                # Convert df to a dictionary or string representation as needed
+                #print(f"Successfully read board data from {file_path}")
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
+
         elif tool_name == "get_webinarAttendees":
             path = './Board string'  # Ensure this matches the path used in get_board.py
             file_path = os.path.join(path, "webinarAttendees.text")
