@@ -154,6 +154,14 @@ def handle_mcp_request(request_data):
                 }
             },
             {
+                "name": "get_organisationMasterlist", 
+                "description": "Get the Monday organisation Masterlist board data",
+                "inputSchema": {
+                    "type": "object",
+                    "properties": {}
+                }
+            },
+            {
                 "name": "get_webinarAttendees", 
                 "description": "Get the Monday webinar attendees board data",
                 "inputSchema": {
@@ -194,6 +202,18 @@ def handle_mcp_request(request_data):
         elif tool_name == "get_webinarAttendees":
             path = './Boards data'  # Ensure this matches the path used in get_board.py
             file_path = os.path.join(path, f"webinarAttendees.csv")
+            try:
+                df = pd.read_csv(file_path)
+                # Convert df to a dictionary or string representation as needed
+                #print(f"Successfully read board data from {file_path}")
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
+        
+        elif tool_name == "get_organisationMasterlist":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, f"Organisation Masterlist.csv")
             try:
                 df = pd.read_csv(file_path)
                 # Convert df to a dictionary or string representation as needed
