@@ -29,9 +29,17 @@ class MCPServer:
                     "properties": {}
                 }
             },
-            "get_boards_info": {
-                "name": "get_boards_info",
-                "description": "Get all monday board data",
+            "get_SMMSMasterlist": {
+                "name": "get_SMMSMasterlist",
+                "description": "Get the Monday SMMS Masterlist board data",
+                "inputSchema": {
+                    "type": "object", 
+                    "properties": {}
+                }
+            },
+            "get_webinarAttendees": {
+                "name": "get_webinarAttendees",
+                "description": "Get the Monday webinar attendees board data",
                 "inputSchema": {
                     "type": "object", 
                     "properties": {}
@@ -99,22 +107,18 @@ class MCPServer:
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
 
-        elif tool_name == "get_boards_info":
-            path = './Boards data'  # Ensure this matches the path used in get_board.py
-            all_boards = {}
-            try:
-                for file in os.listdir(path):
-                    if file.endswith('.csv'):
-                        board_name = file[:-4]  # Remove .csv extension
-                        board_data = self._read_board(board_name)
-                        if board_data is not None:
-                            all_boards[board_name] = board_data
-                if not all_boards:
-                    return None
-                result = all_boards
-            except FileNotFoundError:
-                print(f"Directory {path} not found.")
-                return None
+        elif tool_name == "get_SMMSMasterlist":
+            path = './Board string'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "SMMSMasterList.text")
+            with open(file_path, "r", encoding='utf-8') as file:
+                # Read the contents of the file
+                result = file.read()
+        elif tool_name == "get_webinarAttendees":
+            path = './Board string'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "webinarAttendees.text")
+            with open(file_path, "r", encoding='utf-8') as file:
+                # Read the contents of the file
+                result = file.read()
         else:
             return self._create_error_response(-32601, f"Tool not found: {tool_name}")
         
@@ -125,20 +129,6 @@ class MCPServer:
                 "content": [{"type": "text", "text": str(result)}]
             }
         }
-    
-    def _read_board(self, board_name: str) -> Any:
-        path = './Boards data'  # Ensure this matches the path used in get_board.py
-        file_path = os.path.join(path, f"{board_name}.csv")
-        try:
-            df = pd.read_csv(file_path)
-            # Convert df to a dictionary or string representation as needed
-            print(f"Successfully read board data from {file_path}")
-            return df.to_dict(orient='records')
-    
-        except FileNotFoundError:
-            print(f"File {file_path} not found.")
-            return None
-
     
     def _handle_resources_list(self, request: Dict[str, Any]) -> Dict[str, Any]:
         return {
