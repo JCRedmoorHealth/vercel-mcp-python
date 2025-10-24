@@ -181,13 +181,13 @@ def handle_mcp_request(request_data):
             result = f"Current Vercel server time: {current_time}"
         elif tool_name == "get_SMMSMasterlist":
             path = './Board string'  # Ensure this matches the path used in get_board.py
-            file_path = os.path.join(path, "SMMSMasterList.txt")
+            file_path = os.path.join(path, "SMMSMasterList.text")
             with open(file_path, "r", encoding='utf-8') as file:
                 # Read the contents of the file
                 result = file.read()
         elif tool_name == "get_webinarAttendees":
             path = './Board string'  # Ensure this matches the path used in get_board.py
-            file_path = os.path.join(path, "webinarAttendees.txt")
+            file_path = os.path.join(path, "webinarAttendees.text")
             with open(file_path, "r", encoding='utf-8') as file:
                 # Read the contents of the file
                 result = file.read()
