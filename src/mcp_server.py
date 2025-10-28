@@ -40,6 +40,20 @@ class MCPServer:
                             "items": { "type": "string" },
                             "description": "List of columns to include in the result."
                         },
+                         "filters": {
+                            "type": "object",
+                            "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                            "additionalProperties": {
+                            "oneOf": [
+                                { "type": "string" },
+                                { "type": "number" },
+                                {
+                                "type": "array",
+                                "items": { "type": ["string", "number"] }
+                                }
+                            ]
+                            }
+                        },
                         "order_by": {
                             "type": "string",
                             "description": "Column name to order by."
@@ -144,8 +158,20 @@ class MCPServer:
                 order_by = arguments.get("order_by")             # column name
                 ascending = arguments.get("ascending", True)     # bool
                 limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})
 
                 # 1. Filter columns
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        # handle lists or single values
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
                 if columns:
                     missing = [col for col in columns if col not in df.columns]
                     if missing:
