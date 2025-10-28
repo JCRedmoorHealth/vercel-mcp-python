@@ -31,10 +31,28 @@ class MCPServer:
             },
             "get_SMMSMasterlist": {
                 "name": "get_SMMSMasterlist",
-                "description": "Get the Monday SMMS Masterlist board data",
+                "description": "Get the Monday SMMS Masterlist board data. These are the columns: Store, Display Name, Live Status, Live Date, Update Date, License type, Locality, Comms Plan, Admin Access, Added to New Admin, 2nd Admin, 3rd admin, Comments, Status, Official Link, Rejected Posting, Unofficial Link, Unofficial checked, Removal request date (unofficial page), First license, Type of social media, LIVE Social Type, On Hootsuite?, Email 1, Email 2, Email 3, Email 4, GMB email, Email Login, Username Login, Password, GMB, Renewal",
                 "inputSchema": {
                     "type": "object", 
-                    "properties": {}
+                    "properties": {
+                        "columns": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description": "List of columns to include in the result."
+                        },
+                        "order_by": {
+                            "type": "string",
+                            "description": "Column name to order by."
+                        },
+                        "ascending": {
+                            "type": "boolean",
+                            "description": "Whether to sort in ascending order. Defaults to true."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Maximum number of rows to return."
+                        }
+                    }
                 }
             },
             "get_organisationMasterlist": {
@@ -121,6 +139,35 @@ class MCPServer:
             try:
                 df = pd.read_csv(file_path)
                 # Convert df to a dictionary or string representation as needed
+                # Extract optional transformation parameters
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+
+                # 1. Filter columns
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 2. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 3. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
                 #print(f"Successfully read board data from {file_path}")
                 result = str(df.to_dict(orient='records'))
 
