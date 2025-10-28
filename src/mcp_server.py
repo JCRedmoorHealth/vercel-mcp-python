@@ -71,18 +71,82 @@ class MCPServer:
             },
             "get_organisationMasterlist": {
                 "name": "get_SMMSMasterlist",
-                "description": "Get the Monday organisation Masterlist board data",
+                "description":  "Filter, sort, and limit data from the Organisation Masterlist Board. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
                 "inputSchema": {
                     "type": "object", 
-                    "properties": {}
+                    "properties": {
+                        "filters": {
+                            "type": "object",
+                            "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                            "additionalProperties": {
+                            "oneOf": [
+                                { "type": "string" },
+                                { "type": "number" },
+                                {
+                                "type": "array",
+                                "items": { "type": ["string", "number"] }
+                                }
+                            ]
+                            }
+                        },
+                        "columns": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description": "List of columns to include in the result. Available columns include: Store, Subitems, Code, Email, Job Title, First name, Surname, Email 1, First name 1, Surname 1, Job Title 1, Email 2, First name 2, Surname 2, Job Title 2, SMMS Contacted, SMMS Customer, Facebook Page Official, Facebook Page Unofficial, Official Checked, Unofficial Checked, ICB, PCN Name, Practice Contact, Duplicate ODS, Practice Email, PCN Code, ICB Code, Region, Region Code, Sales Lead, DJP, D&T Invite Sent, D&T Hub Progress, Mirror 1, DMS, Strategic, DT Network, link to Helpdesk Dashboard, link to SMMS Tasks, link to 👩🏻‍💼 Leads, link to Website Master Sheet, link to 💵 Opportunities, link to 👩🏻‍💼 Individuals, link to 🏢 Organisations, link to Cohort Log, link to Salford PCN Webinar x3 - Delivery Plan, link to North Central London Action Log, link to DMS Overview, link to Feedback Received, link to Delivery Plan, Email Count, link to End Of Project Feedback, link to Staffordshire Tracker 04Y, 05D, 05G, 05V, 05W, Master List, Mirror, link to South West London Tracker 36L, link to Pathfinder Customers, link to stacey test, Webinar Attendance Master Sheet, Mirror 2, link to CPD Purchased/Delivered."
+                        },
+                        "order_by": {
+                            "type": "string",
+                            "description": "Column name to order by."
+                        },
+                        "ascending": {
+                            "type": "boolean",
+                            "description": "Whether to sort in ascending order. Defaults to true."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Maximum number of rows to return."
+                        }
+                    }
                 }
             },
             "get_webinarAttendees": {
                 "name": "get_webinarAttendees",
-                "description": "Get the Monday webinar attendees board data",
+                "description":  "Filter, sort, and limit data from the Organisation Masterlist Board. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
                 "inputSchema": {
                     "type": "object", 
-                    "properties": {}
+                    "properties": {
+                        "filters": {
+                            "type": "object",
+                            "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                            "additionalProperties": {
+                            "oneOf": [
+                                { "type": "string" },
+                                { "type": "number" },
+                                {
+                                "type": "array",
+                                "items": { "type": ["string", "number"] }
+                                }
+                            ]
+                            }
+                        },
+                        "columns": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description":  "List of columns to include in the result. Available columns include: Store, Subitems, Session Date, Programme, Webinar Type, Please tick the box if you would like to subscribe to a newsletter from Redmoor Health, assigned to pick up, Followed up Network, Which product or service are you most interested in?, Can Redmoor contact?, Added to stakeholder/org master list, Added to Individuals Board, First Name, Last Name, Job Title, Email address, Formula, Webinar Attendance Master Sheet, Duplicate Trigger, Organisation, ODS Code (if known), PCN, ICB/ICS, Organisation Master List, ODS Code, ICB, ICB Code, Region, Connect boards, Name of session, Registration First Name, Registration Last Name, Registration Email, Webinar, Organization, ODS code if known, Job title."
+                        },
+                        "order_by": {
+                            "type": "string",
+                            "description": "Column name to order by."
+                        },
+                        "ascending": {
+                            "type": "boolean",
+                            "description": "Whether to sort in ascending order. Defaults to true."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Maximum number of rows to return."
+                        }
+                    }
                 }
             }
         }
@@ -206,6 +270,47 @@ class MCPServer:
             try:
                 df = pd.read_csv(file_path)
                 # Convert df to a dictionary or string representation as needed
+                # Extract optional transformation parameters
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})
+
+                # 1. Filter columns
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        # handle lists or single values
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 2. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 3. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
                 #print(f"Successfully read board data from {file_path}")
                 result = str(df.to_dict(orient='records'))
 
@@ -218,6 +323,47 @@ class MCPServer:
             try:
                 df = pd.read_csv(file_path)
                 # Convert df to a dictionary or string representation as needed
+                # Extract optional transformation parameters
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})
+
+                # 1. Filter columns
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        # handle lists or single values
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 2. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 3. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
                 #print(f"Successfully read board data from {file_path}")
                 result = str(df.to_dict(orient='records'))
 
