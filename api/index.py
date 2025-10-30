@@ -229,6 +229,86 @@ def handle_mcp_request(request_data):
                 }
             },
             {
+                "name": "get_supportDeskDashboard",
+                "description": "Filter, sort, and limit data from the Support Desk Dashboard CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                    "filters": {
+                        "type": "object",
+                        "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                        "additionalProperties": {
+                        "oneOf": [
+                            { "type": "string" },
+                            { "type": "number" },
+                            {
+                            "type": "array",
+                            "items": { "type": ["string", "number"] }
+                            }
+                        ]
+                        }
+                    },
+                    "columns": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List of columns to include in the result. Available columns include: Store, Subitems, Created at, Task Status, Category, Assignee, Customer Type, Enquiry Type, ODS Code, Practices affected, AI Video, Organisation Master List, Email Address, Text/Information to be posted, Image to be posted (if applicable), Date to be posted, What is your name?, Mirror, PCN, ICB, ICB Code, Region, Job Role, Please select the CPD courses you are interested in., Resolution, Feedback Form Sent, Resolution Date, How long it's opened, Requestor phone, Formula, Hootsuite, Delete, Social Media Type, Social Media ID."
+                    },
+                    "order_by": {
+                        "type": "string",
+                        "description": "Column name to order by."
+                    },
+                    "ascending": {
+                        "type": "boolean",
+                        "description": "Whether to sort in ascending order. Defaults to true."
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Maximum number of rows to return."
+                    }
+                    }
+                }
+            },
+            {
+                "name": "get_individualsBoard",
+                "description": "Filter, sort, and limit data from the Individuals Board CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                    "filters": {
+                        "type": "object",
+                        "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                        "additionalProperties": {
+                        "oneOf": [
+                            { "type": "string" },
+                            { "type": "number" },
+                            {
+                            "type": "array",
+                            "items": { "type": ["string", "number"] }
+                            }
+                        ]
+                        }
+                    },
+                    "columns": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List of columns to include in the result. Available columns include: Store, Subitems, Job Type, Friend, Can we contact?, D&T Network, D&T Hub Invite Sent, DJP, SMMS, DMS, Item ID, *Company, 💵 *Opportunities, Job Title, Phone, Email, Organisation, PCN, ODS, ICB, Region, Mirror, Comments, Location, *New/Exiting, *Create a new account & connect, *Connect to existing account, *Crate an Opportunity, *👩🏻‍💼 Leads, link to Helpdesk Dashboard, Duplication, Duplicate Indicator, link to Cohort Log, link to Salford PCN Webinar x3 - Delivery Plan, link to 👩🏻‍💼 Leads, link to BSOL Appointment Redesign, link to Stakeholder Database, link to Webinar Attendance Master Sheet, link to Staffordshire Tracker 04Y, 05D, 05G, 05V, 05W, link to South West London Tracker 36L, link to Cambridgeshire & Peterborough Tracker 06H, D and T Network Email, monday Doc v2."
+                    },
+                    "order_by": {
+                        "type": "string",
+                        "description": "Column name to order by."
+                    },
+                    "ascending": {
+                        "type": "boolean",
+                        "description": "Whether to sort in ascending order. Defaults to true."
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Maximum number of rows to return."
+                    }
+                    }
+                }
+            },
+            {
                 "name": "get_webinarAttendees",
                 "description":  "Filter, sort, and limit data from the Webinar attendees Board. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
                 "inputSchema": {
@@ -286,9 +366,9 @@ def handle_mcp_request(request_data):
         elif tool_name == "get_time":
             current_time = datetime.datetime.now().isoformat()
             result = f"Current Vercel server time: {current_time}"
-        elif tool_name == "get_SMMSMasterlist":
+        elif tool_name == "get_supportDeskDashboard":
             path = './Boards data'  # Ensure this matches the path used in get_board.py
-            file_path = os.path.join(path, f"SMMSMasterList.csv")
+            file_path = os.path.join(path, f"Support Desk Dashboard.csv")
             try:
                 df = pd.read_csv(file_path)
                 # Convert df to a dictionary or string representation as needed
