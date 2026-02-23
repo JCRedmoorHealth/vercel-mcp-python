@@ -657,6 +657,111 @@ def handle_mcp_request(request_data):
 
             except FileNotFoundError:
                 result = f"File {file_path} not found."
+        elif tool_name == "get_followUpList":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, f"FollowUpList.csv")
+            try:
+                df = pd.read_csv(file_path)
+                # Convert df to a dictionary or string representation as needed
+                # Extract optional transformation parameters
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})          # dict of filters
+
+                # 1. Filter columns
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        # handle lists or single values
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 2. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 3. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
+                #print(f"Successfully read board data from {file_path}")
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
+
+        elif tool_name == "get_opportunitiesBoard":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, f"OpportunitiesBoard.csv")
+            try:
+                df = pd.read_csv(file_path)
+                # Convert df to a dictionary or string representation as needed
+                # Extract optional transformation parameters
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})          # dict of filters
+
+                # 1. Filter columns
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        # handle lists or single values
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 2. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 3. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
+                #print(f"Successfully read board data from {file_path}")
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
         else:
             return {
                 "jsonrpc": "2.0",
