@@ -231,7 +231,7 @@ def handle_mcp_request(request_data):
             {
                 "name": "get_supportDeskDashboard",
                 "description": "Filter, sort, and limit data from the Support Desk Dashboard CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
-                "parameters": {
+                "inputSchema": {
                     "type": "object",
                     "properties": {
                     "filters": {
@@ -271,7 +271,7 @@ def handle_mcp_request(request_data):
             {
                 "name": "get_individualsBoard",
                 "description": "Filter, sort, and limit data from the Individuals Board CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
-                "parameters": {
+                "inputSchema": {
                     "type": "object",
                     "properties": {
                     "filters": {
