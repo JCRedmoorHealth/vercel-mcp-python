@@ -228,6 +228,87 @@ class MCPServer:
                         }
                     }
                 }
+            },
+            "get_followUpList": {
+                "name": "get_followUpList",
+                "description": "Filter, sort, and limit data from the FollowUpList CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+                "inputSchema": {
+                    "type": "object",
+                    "properties": {
+                        "filters": {
+                            "type": "object",
+                            "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                            "additionalProperties": {
+                                "oneOf": [
+                                    { "type": "string" },
+                                    { "type": "number" },
+                                    {
+                                        "type": "array",
+                                        "items": { "type": ["string", "number"] }
+                                    }
+                                ]
+                            }
+                        },
+                        "columns": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description": "List of columns to include in the result. Available columns include: Store, Subitems, Sales Lead, Status, Source, Product Strand, Segment Interest, D&T Hub, Comments, First name, Last Name, Email, Job Title, Contacted on Linkedin, Organisation Master List, Organisation, PCN, ICB, Region, ODS code, 👩🏻‍💼 Individuals, D&T Hub Invite Sent, Last interaction, Date Created, Title, SMMS, DJP, DMS, Strategic, Webinar Attendance Master Sheet, monday Doc v2, Quotes & Invoices, Item."
+                        },
+                        "order_by": {
+                            "type": "string",
+                            "description": "Column name to order by."
+                        },
+                        "ascending": {
+                            "type": "boolean",
+                            "description": "Whether to sort in ascending order. Defaults to true."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Maximum number of rows to return."
+                        }
+                    }
+                }
+            },
+
+            "get_opportunitiesBoard": {
+                "name": "get_opportunitiesBoard",
+                "description": "Filter, sort, and limit data from the OpportunitiesBoard CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+                "inputSchema": {
+                    "type": "object",
+                    "properties": {
+                        "filters": {
+                            "type": "object",
+                            "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                            "additionalProperties": {
+                                "oneOf": [
+                                    { "type": "string" },
+                                    { "type": "number" },
+                                    {
+                                        "type": "array",
+                                        "items": { "type": ["string", "number"] }
+                                    }
+                                ]
+                            }
+                        },
+                        "columns": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description": "List of columns to include in the result. Available columns include: Store, Subitems, Organisation Name, Work Strand, Deal Value, Close date, Business Type, Stage, Kanban Stage, Sales Lead, Customer Type, Lead Source, Confidence Level, Loss Reason, Created Date, Meeting date, Follow up date, ICB, PCN, ODS Code, CS knows, Contract Start Date, Contract End Date, Board Check, F - Customer Name, Main contact, Email, F - Billing Contact, F - Billing Email, F - Billing Address, F - Billing Mechanic, F - Billing Type, F - Sales Method, 🗣  Main Contact, Client_Onboarding_Account_Managers_1633191773, Invoices and Collections, Sales Email, 👩🏻‍💼 Individuals, Chase date, link to Renewals, link to Invoices and Collections, Current FTE, Future FTE, Skills Required, monday Doc v2, People."
+                        },
+                        "order_by": {
+                            "type": "string",
+                            "description": "Column name to order by."
+                        },
+                        "ascending": {
+                            "type": "boolean",
+                            "description": "Whether to sort in ascending order. Defaults to true."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Maximum number of rows to return."
+                        }
+                    }
+                }
             }
         }
         
@@ -551,6 +632,108 @@ class MCPServer:
                         result = "Invalid limit value. Must be an integer."
 
                 #print(f"Successfully read board data from {file_path}")
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
+
+        elif tool_name == "get_followUpList":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "FollowUpList.csv")
+            try:
+                df = pd.read_csv(file_path)
+
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})           # dict of filters
+
+                # 1. Filter rows
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                # 2. Select columns
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 3. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 4. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
+                result = str(df.to_dict(orient='records'))
+
+            except FileNotFoundError:
+                result = f"File {file_path} not found."
+
+        elif tool_name == "get_opportunitiesBoard":
+            path = './Boards data'  # Ensure this matches the path used in get_board.py
+            file_path = os.path.join(path, "OpportunitiesBoard.csv")
+            try:
+                df = pd.read_csv(file_path)
+
+                columns = arguments.get("columns")               # list of columns
+                order_by = arguments.get("order_by")             # column name
+                ascending = arguments.get("ascending", True)     # bool
+                limit = arguments.get("limit")                   # int
+                filters = arguments.get("filters", {})           # dict of filters
+
+                # 1. Filter rows
+                if filters:
+                    for col, val in filters.items():
+                        if col not in df.columns:
+                            result = f"Invalid filter column: {col}. Available: {list(df.columns)}"
+                            break
+                        if isinstance(val, list):
+                            df = df[df[col].isin(val)]
+                        else:
+                            df = df[df[col] == val]
+
+                # 2. Select columns
+                if columns:
+                    missing = [col for col in columns if col not in df.columns]
+                    if missing:
+                        result = f"Invalid columns: {missing}. Available: {list(df.columns)}"
+                    else:
+                        df = df[columns]
+
+                # 3. Sort
+                if order_by:
+                    if order_by not in df.columns:
+                        result = f"Invalid order_by column: {order_by}. Available: {list(df.columns)}"
+                    else:
+                        df = df.sort_values(by=order_by, ascending=ascending)
+
+                # 4. Limit rows
+                if limit is not None:
+                    try:
+                        limit = int(limit)
+                        df = df.head(limit)
+                    except ValueError:
+                        result = "Invalid limit value. Must be an integer."
+
                 result = str(df.to_dict(orient='records'))
 
             except FileNotFoundError:

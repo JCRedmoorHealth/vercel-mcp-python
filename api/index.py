@@ -347,7 +347,87 @@ def handle_mcp_request(request_data):
                         }
                     }
                 }
+            },
+            {
+            "name": "get_followUpList",
+            "description": "Filter, sort, and limit data from the FollowUpList CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "filters": {
+                        "type": "object",
+                        "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                        "additionalProperties": {
+                            "oneOf": [
+                                { "type": "string" },
+                                { "type": "number" },
+                                {
+                                    "type": "array",
+                                    "items": { "type": ["string", "number"] }
+                                }
+                            ]
+                        }
+                    },
+                    "columns": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List of columns to include in the result. Available columns include: Store, Subitems, Sales Lead, Status, Source, Product Strand, Segment Interest, D&T Hub, Comments, First name, Last Name, Email, Job Title, Contacted on Linkedin, Organisation Master List, Organisation, PCN, ICB, Region, ODS code, 👩🏻‍💼 Individuals, D&T Hub Invite Sent, Last interaction, Date Created, Title, SMMS, DJP, DMS, Strategic, Webinar Attendance Master Sheet, monday Doc v2, Quotes & Invoices, Item."
+                    },
+                    "order_by": {
+                        "type": "string",
+                        "description": "Column name to order by."
+                    },
+                    "ascending": {
+                        "type": "boolean",
+                        "description": "Whether to sort in ascending order. Defaults to true."
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Maximum number of rows to return."
+                    }
+                }
             }
+        },
+        {
+            "name": "get_opportunitiesBoard",
+            "description": "Filter, sort, and limit data from the OpportunitiesBoard CSV. Allows selecting specific columns, applying filters, sorting by a column, and limiting rows returned.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "filters": {
+                        "type": "object",
+                        "description": "Optional filters to apply to the data. Each key is a column name, and the value can be a string, number, or an array of acceptable values.",
+                        "additionalProperties": {
+                            "oneOf": [
+                                { "type": "string" },
+                                { "type": "number" },
+                                {
+                                    "type": "array",
+                                    "items": { "type": ["string", "number"] }
+                                }
+                            ]
+                        }
+                    },
+                    "columns": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "List of columns to include in the result (s). Available columns include: Store, Subitems, Organisation Name, Work Strand, Deal Value, Close date, Business Type, Stage, Kanban Stage, Sales Lead, Customer Type, Lead Source, Confidence Level, Loss Reason, Created Date, Meeting date, Follow up date, ICB, PCN, ODS Code, CS knows, Contract Start Date, Contract End Date, Board Check, F - Customer Name, Main contact, Email, F - Billing Contact, F - Billing Email, F - Billing Address, F - Billing Mechanic, F - Billing Type, F - Sales Method, 🗣  Main Contact, Client_Onboarding_Account_Managers_1633191773, Invoices and Collections, Sales Email, 👩🏻‍💼 Individuals, Chase date, link to Renewals, link to Invoices and Collections, Current FTE, Future FTE, Skills Required, monday Doc v2, People."
+                    },
+                    "order_by": {
+                        "type": "string",
+                        "description": "Column name to order by."
+                    },
+                    "ascending": {
+                        "type": "boolean",
+                        "description": "Whether to sort in ascending order. Defaults to true."
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Maximum number of rows to return."
+                    }
+                }
+            }
+        }
         ]
         return {
             "jsonrpc": "2.0", 
