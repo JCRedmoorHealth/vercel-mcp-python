@@ -251,7 +251,7 @@ def handle_mcp_request(request_data):
                     "columns": {
                         "type": "array",
                         "items": { "type": "string" },
-                        "description": "List of columns to include in the result. Available columns include: Store, Subitems, Created at, Task Status, Category, Assignee, Customer Type, Enquiry Type, ODS Code, Practices affected, AI Video, Organisation Master List, Email Address, Text/Information to be posted, Image to be posted (if applicable), Date to be posted, What is your name?, Mirror, PCN, ICB, ICB Code, Region, Job Role, Please select the CPD courses you are interested in., Resolution, Feedback Form Sent, Resolution Date, How long it's opened, Requestor phone, Formula, Hootsuite, Delete, Social Media Type, Social Media ID."
+                        "description": "List of columns to include in the result. Available columns include: Store, Subitems, Created at, Task Status (), Category, Assignee, Customer Type, Enquiry Type, ODS Code, Practices affected, AI Video, Organisation Master List, Email Address, Text/Information to be posted, Image to be posted (if applicable), Date to be posted, What is your name?, Mirror, PCN, ICB, ICB Code, Region, Job Role, Please select the CPD courses you are interested in., Resolution, Feedback Form Sent, Resolution Date, How long it's opened, Requestor phone, Formula, Hootsuite, Delete, Social Media Type, Social Media ID."
                     },
                     "order_by": {
                         "type": "string",
