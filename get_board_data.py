@@ -122,8 +122,8 @@ orgMasterList = retrieve_board(int(board_id_dict["Organisation Masterlist"]))
 
 orgMasterList.to_csv(f'{path}/Organisation Masterlist.csv', sep=',', encoding='utf-8', index=False)
 
-SupportDesk = retrieve_board(int(board_id_dict["Support Desk Dashboard"]))
-SupportDesk.to_csv(f'{path}/Support Desk Dashboard.csv', sep=',', encoding='utf-8', index=False)
+#SupportDesk = retrieve_board(int(board_id_dict["Support Desk Dashboard"]))
+#SupportDesk.to_csv(f'{path}/Support Desk Dashboard.csv', sep=',', encoding='utf-8', index=False)
 
 IndividualsBoard = retrieve_board(int(board_id_dict["Individuals Board"]))
 IndividualsBoard.to_csv(f'{path}/Individuals Board.csv', sep=',', encoding='utf-8', index=False)
