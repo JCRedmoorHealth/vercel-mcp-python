@@ -27,7 +27,7 @@ jobs:
           pip install pandas requests
 
       - name: Run monday export
-        run: python get_board.py
+        run: python get_board_data.py
 
       - name: Commit and push CSV updates
         run: |
