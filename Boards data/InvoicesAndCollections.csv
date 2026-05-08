@@ -91,17 +91,26 @@ SHIREGREEN MEDICAL CENTRE,,,,2026-04-30,,,,,,,"Shiregreen Medical Centre
 Shiregreen, 
 South Yorkshire, 
 S5 0RG.",DD,Monthly,Rachel Crossley,2026-06-01,2027-06-01,,,,,,,,2026-06-01,2027-06-01,,,,,,,,2026-03-31 10:26:16 UTC,,600,
-ELC Branding,,,,2026-05-02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-04-02 08:52:48 UTC,,350,
 Priory Fields Surgery,,,,2026-05-24,,,,,,,,DD,Monthly,,,,,,,,,,,,,,,,,,,,2026-04-24 13:31:29 UTC,,24000,
-Wentworth,,,,2026-05-27,,,,,,,"Wentworth Medical Practice
-38 Wentworth Avenue London N3 1YL",DD,Monthly,Jignasha Patel,,,,,,,,,,,,,,,,,,,2026-04-27 08:58:33 UTC,,300,
-Fleet PCN -Miscrosoft co pilot training,,,,2026-05-27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-04-27 13:00:59 UTC,,1500,
 Merrow Park Surgery,,,,2026-05-27,,,,,,,"Merrow Park Surgery,
 Kingfisher Drive,
 Merrow,
 Guildford,
 Surrey,
 GU4 7EP",DD,Monthly,Shalini Barnard,2026-06-01,2027-06-01,,,,,,,,2026-06-01,2027-06-01,,,,,,,,2026-04-27 16:37:51 UTC,,18000,
+Greystone MC,,,,2026-05-31,,,,,,,"33 Greystones Road
+Sheffield S Yorks S11 7BJ",Invoice,Annual,Greystones Medical Centre,,,,,,,,,,,,,,,,,,,2026-05-01 15:37:12 UTC,,750,
+Excel Primary Care,,,,2026-06-04,,,,,,,"Birleywood Health Centre
+Birleywood Skelmersdale WN8 9BW",Invoice,Annual,Excel Primary Care,,,,,,,,,,,,,,,,,,,2026-05-05 08:43:53 UTC,,600,
+Queenswood Medical Practice,,,,2026-06-04,,,,,,,,DD,Monthly,,,,,,,,,,,,,,,,,,,,2026-05-05 13:43:20 UTC,,30000,
+Boroughbury Medical Centre,,,,2026-06-06,,,,,,,"Craig Street
+Peterborough Cambs PE1 2EJ",DD,Monthly,Boroughbury Medical Centr,,,,,,,,,,,,,,,,,,,2026-05-07 11:03:36 UTC,,1440,
+KINGSWELL SURGERY PMS PRACTICE,,,,2026-06-06,,,,,,,"40 Shrewsbury Road
+Penistone South Yorkshire S36 6DY",Invoice,Annual,Jo Swift,2026-05-29,2027-05-28,,,,,,,,2026-05-29,2027-05-28,,,,,,,,2026-05-07 11:20:11 UTC,,480,
+Queenswood Medical Practice,,,,2026-06-06,,,,,,,"Queenswood Medical Practice
+151 Park Road
+London
+N8 8JD",DD,Monthly,Shannon Hanbury,2026-05-11,2027-05-11,,,,,,,,2026-05-11,2027-05-11,,,,,,,,2026-05-07 17:02:11 UTC,,30000,
 South & Central Knowsley DMS 6 mths,,Invoice Sent,,2023-11-30,,,,FY24/0099,,,,,,,,,,,,,,,,,,,,,2023-11-10,,860,https://redmoor-health-company.monday.com/protected_static/13214200/resources/22696605/Invoice%20INV-0860.pdf,2023-10-31 14:42:29 UTC,,10500,
 Western Dales PCN,,Invoice Sent,,2023-12-06,,,,FY24/0101,,,,,,,,,,,,,,,,,,,,,2023-11-10,,862,https://redmoor-health-company.monday.com/protected_static/13214200/resources/22718795/Invoice%20INV-0862.pdf,2023-11-06 16:50:30 UTC,,2000,
 Greater Manchester Digital Champions,,Invoice Sent,,2024-02-01,,,,FY24/0115,,,,,,,,,,,,,,,,,,,,,2024-01-15,,0945,https://redmoor-health-company.monday.com/protected_static/13214200/resources/29589986/Invoice%20INV-0945.pdf,2024-01-02 09:37:30 UTC,,30000,
@@ -1506,6 +1515,21 @@ Cheshire
 SK14 1JY",DD,Monthly,Rachel Hirst,2026-04-16,2028-04-16,,,,,,,,2026-04-16,2028-04-16,,,,,,4211,,2026-04-16 11:52:42 UTC,,1440,
 Doncaster North PCN,,Invoice Sent,,2026-05-16,,,,,,,"Park View Surgery, Newton Lane, Sprotbrough Doncaster South Yorkshire DN5 8D",Invoice,Annual,Doncaster North PCN,,,,,,,,,,,,,,,,,4210,,2026-04-16 10:49:04 UTC,,1800,
 Hyndburn Central PCN - Bowl Cancer Roller Banner,,Invoice Sent,,2026-05-10,,,,,,,,,,,,,,,,,,,,,,,,,,,4212,,2026-04-10 10:24:15 UTC,,75,
+Aspiro Healthcare,,Invoice Sent,,2026-05-28,,,,,,,"School Place
+Corby Northants NN18 0Q",Invoice,Monthly,Aspiro Healthcare Woodsend Medical Centre,,,,,,,,,,,,,,,,,4276,,2026-04-28 08:50:28 UTC,,660,
+Wentworth,,Invoice Sent,,2026-05-27,,,,,,,"Wentworth Medical Practice
+38 Wentworth Avenue London N3 1YL",DD,Monthly,Jignasha Patel,,,,,,,,,,,,,,,,,4277,,2026-04-27 08:58:33 UTC,,300,
+ELC Branding,,Invoice Sent,,2026-05-02,,,,,,,,,,,,,,,,,,,,,,,,,,,4279,,2026-04-02 08:52:48 UTC,,350,
+Fleet PCN -Miscrosoft co pilot training,,Invoice Sent,,2026-05-27,,,,,,,,,,,,,,,,,,,,,,,,,,,4280,,2026-04-27 13:00:59 UTC,,1500,
+Pearl Medical Practice,,Invoice Sent,,2026-05-30,,,,,,,"WEMBLEY CENTRE FOR HEALTH & CARE
+116 CHAPLIN ROAD WEMBLEY HA0 4UZ",Invoice,Annual,PEARL MEDICAL PRACTICE,,,,,,,,,,,,,,,,,4286,,2026-04-30 10:50:52 UTC,,600,
+Lane Ends Surgery,,Invoice Sent,,2026-05-30,,,,,,,"200 Tulketh Brow, Ashton-on-Ribble, Preston PR2 2JJ, United Kingdom",DD,Monthly,Natalie Blackburn,2026-04-30,2027-04-30,,,,,,,,2026-04-30,2027-04-30,,,,,,4297,,2026-04-30 14:15:41 UTC,,21000,
+SMS Medical,,Invoice Sent,,2026-05-29,,,,,,,"SMS Medical Practice, 
+Wembley Centre for Health and Care,
+116 Chaplin Road,
+Wembley,
+Middx,
+HA0 4UZ",DD,Monthly,Shahla Jamal,2026-04-29,2027-04-29,,,,,,,,2026-04-29,2027-04-29,,,,,,4295,,2026-04-29 09:28:20 UTC,,7200,
 Porter Brook Medical Centre,,At Risk,,2025-08-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-07-31 14:18:56 UTC,,480,
 Sale Managed Service,,Invoice Sent,,2023-07-20,2023-08-23,,,FY24/0033,,,,,,,,,,,Partial Collection,,,,,,,,,,2023-06-23,,0659,"https://redmoor-health-company.monday.com/protected_static/13214200/resources/10875597/Invoice%20INV-0659.pdf, https://redmoor-health-company.monday.com/protected_static/13214200/resources/10876243/Redmoor%20DTL%20SLA%20wef%201%207%2023%20emailed%20to%20HHF%202%206%2023%20(2).docx",2023-06-20 11:28:25 UTC,,54000,
 Market Harborough and Bosworth Partnership,,Invoice Sent,,2023-06-30,2023-08-23,,,FY24/0041,,,,,,,,,,,Partial Collection,,,,,,,,,,2023-07-14,,678,https://redmoor-health-company.monday.com/protected_static/13214200/resources/12324754/Invoice%20INV-0678.pdf,2023-05-31 12:10:47 UTC,,39.62,
