@@ -1,7 +1,9 @@
 Store,Subitems,Organisation Name,Work Strand,Deal Value,Close date,Business Type,Stage,Kanban Stage,Sales Lead,Customer Type,Lead Source,Confidence Level,Finance Forecast,Loss Reason,Email 1,Created Date,Meeting date,Follow up date,ICB,PCN,ODS Code,CS knows,Contract Start Date,Contract End Date,Board Check,F - Customer Name,Main contact,Email,F - Billing Contact,F - Billing Email,F - Billing Address,F - Billing Mechanic,F - Billing Type,F - Sales Method,🗣  Main Contact,Client_Onboarding_Account_Managers_1633191773,Invoices and Collections,Sales Email,👩🏻‍💼 Individuals,Chase date,link to Renewals,link to Invoices and Collections,Current FTE,Future FTE,Skills Required,monday Doc v2,People
-Re:Cognition Health -Life science,,,Partnerships,20000,2026-06-26,New,Proposal Sent,In Conversation,Dillon Sykes,Partner,,50%,In forecast,,,2026-04-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Station Lane Surgery,,,SMMS,600,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,amanda.baxter@nhs.net,2026-03-31,,2026-05-15,,,,,,,,Amanda Baxter,,,Amanda Baxter,amanda.baxter@nhs.net,,DD,Monthly,Remote,,,,,,,,,,,,,
-Woodville Surgery,,,SMMS,600,2026-07-31,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Website,50%,In forecast,,danielle.marratt@nhs.net,2026-03-31,,2026-05-15,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Sunderland GP Alliance,,,SMMS,2840,2026-05-31,New,Advanced Discussion,New Opportunity,Liam Wright,GP Federation,Existing customer relations,50%,,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Re:Cognition Health -Life science,,,Partnerships,20000,2026-06-26,New,Proposal Sent,In Conversation,Dillon Sykes,Partner,Employee Referral,50%,In forecast,,,2026-04-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Station Lane Medical Centre,,,SMMS,660,2027-05-12,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,80%,In forecast,,amanda.baxter@nhs.net,2026-05-12,,2027-03-18,,,,,,,,Station Lane Medical Centr,,,Amanda Baxter,amanda.baxter@nhs.net,"Station Lane
+Featherstone West Yorkshire WF7 6J",Invoice,Annual,Remote,,,,,,,,,,,,,
+Woodville Surgery,,,SMMS,600,2026-07-31,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Website,50%,In forecast,,danielle.marratt@nhs.net,2026-03-31,,2026-07-31,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Southport and Formby PCN,,,SMMS,600,2027-04-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,,2026-03-03,,2027-01-01,,,,,2027-04-01,2028-03-31,,Matty Smith,,,Matty Smith,matthew.smith147@nhs.net,"Southport and Formby Health
 3 Wight Moss Way, Southport Business Park
 Southport Merseyside PR84HQ",Invoice,Annual,Remote,,,,,,,,,,,,,
@@ -12,12 +14,9 @@ Hill View Medical Centre,,,AI,600,2026-06-30,New,Initial Discussion,New Opportun
 Goldborne Medical,,,AI,600,2026-06-30,New,Advanced Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2026-02-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Norfolk and Waveney ICB,,,SMMS,30000,2027-04-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,ICB,Existing customer relations,50%,In forecast,,,2026-01-30,,2027-01-01,,,,,2027-04-01,2028-03-31,,,,,,,,Invoice,Annual,Remote,,,,,,,,,,,,,
 Fleet PCN,,,SMMS,499,2027-12-17,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Personal email campaign,50%,In forecast,,,2025-12-19,,2027-08-01,,,,,2027-12-17,2028-12-19,,Donna Brennan,,,Donna Brennan,donnabrennan@nhs.net,,Invoice,Annual,Remote,,,,,,,,,,,,,
-Doncaster Central PCN,,,SMMS,2400,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,10%,NOT in forecast,,tina.hope@nhs.net,2025-12-15,,2026-05-21,,,,,2026-05-29,2027-05-28,,Tina Hope,,,Tina Hope,tina.hope@nhs.net,,DD,Monthly,Remote,,,,,,,,,,,,,
+Doncaster Central PCN,,,SMMS,2400,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,10%,NOT in forecast,,tina.hope@nhs.net,2025-12-15,,2026-05-21,,,,,2026-05-29,2027-05-28,,Tina Hope,,,Tina Hope,tina.hope@nhs.net,,Invoice,Annual,Remote,,,,,,,,,,,,,
 Manchester Council - NHS Health Checks,,,Public Health,24600,2026-05-29,New,Initial Discussion,2nd Follow-up,Dillon Sykes,Local Authority,Personal email campaign,10%,NOT in forecast,,,2026-01-09,2026-01-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Filey & Scarborough Healthier Communities Network,,,D&T Hub,1000,2026-03-31,New,Initial Discussion,In Conversation,Dillon Sykes,PCN,DMI Demo,10%,NOT in forecast,,,2024-09-30,2025-10-01,2025-10-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hill Brow Partnership - IMMS_ Part Two,,,Income Gen,6000,2026-05-31,New,Advanced Discussion,Trial dependant,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-10-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Derry GP Federation NI - Digital FD,,,DTMS,5000,2026-05-30,New,Initial Discussion,In Conversation,Dillon Sykes,GP Federation,Marketing campaign,10%,NOT in forecast,,,2026-01-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Magdalen Medical Practice_IMMS_Part Two,,,Income Gen,6000,2026-05-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Existing customer relations,10%,NOT in forecast,,,2025-11-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lancashire County Council -Sakthi phase 2,,,Public Health,24500,2026-05-29,New,Advanced Discussion,In Conversation,Dillon Sykes,Local Authority,Existing customer relations,50%,In forecast,,,2026-01-16,,,,,,,,,,,,,,,,,,Face to Face,,,,,,,,,,,,,
 GP Reg - NHSE (Wave 2),,,Strategic,200000,2026-12-31,New,Initial Discussion,New Opportunity,Dillon Sykes,National NHS,Existing customer relations,50%,In forecast,,,2026-02-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 JAUNTY SPRINGS HEALTH CENTRE,,,SMMS,480,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,10%,NOT in forecast,,tracy.ward1@nhs.net,2025-12-10,,2026-05-22,,,,,2026-05-29,2027-05-28,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
@@ -25,19 +24,18 @@ Suffolk GP Federation - D&T Hub £99 licences,,,DTMS,10000,2026-05-29,New,Initia
 Cliff House Medical Practice -EPR Implementation,,,Project Management,30000,2026-05-29,New,Advanced Discussion,Meeting Booked,Dillon Sykes,Practice,Employee Referral,80%,In forecast,,,2025-09-24,,,,,,,,,,Rehaan Ansari,,,,,,,,,,,,,,,,,,,,,
 Pharmacy social media - Parvesh,,,SMMS,500,2026-05-29,New,Initial Discussion,New Opportunity,marc@redmoorhealth.co.uk,Pharmacy,Shilpa Shah Referral,10%,NOT in forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Pharmacy social media - Faruque,,,SMMS,500,2026-05-29,New,Initial Discussion,New Opportunity,marc@redmoorhealth.co.uk,Pharmacy,Shilpa Shah Referral,10%,NOT in forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Mayfield Medical Practice_IMMS_Part One,,,Income Gen,250.0,2026-05-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-10-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Scilly and South Kerrier PCN,,,AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Swan Surgery,,,AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Northumberland House Surgery,,,AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Aylmer Lodge Cookley Partnership,,,AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Kensington Partnership,,,AI,630,2026-05-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Taunton Central PCN,,,AI,630,2026-05-31,New,Initial Discussion,New Opportunity,Liam Wright,PCN,BP Birmingham,10%,NOT in forecast,,,2025-10-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Garstang Medical Practice,,,SMMS/AI,480,2026-05-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-09-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Huntingdon Road Surgery,,,SMMS/AI,630,2026-05-31,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ellison View Surgery,,,SMMS/AI,630,2026-05-31,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cobham Health Centre,,,SMMS/AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Garstang Medical Practice,,,SMMS/AI,480,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-09-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Huntingdon Road Surgery,,,SMMS/AI,630,2026-06-30,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ellison View Surgery,,,SMMS/AI,630,2026-06-30,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cobham Health Centre,,,SMMS/AI,630,2026-07-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Westgate Surgery,,,SMMS/AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-The Royton Crompton Family Practice,,,SMMS/AI,630,2026-05-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Royton Crompton Family Practice,,,SMMS/AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wyresdale Road Surgery,,,SMMS/AI,630,2026-06-30,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Stanmore House Surgery,,,SMMS/AI,480,2026-06-30,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,80%,In forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Second Street Surgery,,,SMMS/AI,630,2026-05-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -45,13 +43,11 @@ North West Commissioning Hub,,,SMMS/AI,630,2026-06-30,New,Proposal Sent,New Oppo
 The Village Surgery Formby,,,SMMS/AI,630,2026-06-30,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Seaton & Colyton Medical Practice,,,SMMS/AI,630,2026-05-31,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Integrated Care Partnership,,,SMMS/AI,630,2026-05-31,New,Proposal Sent,New Opportunity,Liam Wright,Practice,Existing customer relations,80%,In forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Severn Fields,,,Income Gen,995,2026-05-31,New,Advanced Discussion,In Conversation,Tom Owen,PCN,Marketing campaign,10%,NOT in forecast,,,2024-09-30,,2025-05-15,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,
 Breckland Alliance PCN  Deal,,,Income Gen,1000,2026-05-31,New,Initial Discussion,Meeting Booked,Tom Owen,PCN,Marketing campaign,10%,NOT in forecast,,,2024-09-30,2025-04-14,2025-04-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Grand Union PCN D&T Hub,,,Income Gen,1000,2026-05-31,New,Initial Discussion,Meeting Booked,Tom Owen,PCN,Existing customer relations,10%,NOT in forecast,,,2025-03-31,2025-02-10,2025-04-21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Jayjay/Ailisha,,,SMMS/AI,960,2026-06-30,New,Proposal Sent,Proposal Sent,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Inclusive PCN (Practice Pilot),,,Income Gen,15000,2026-05-31,New,Advanced Discussion,In Conversation,Tom Owen,PCN,Marketing campaign,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Blinx neighbourhood Partnership,,,Partnerships,20000,2026-05-29,New,Advanced Discussion,3rd Follow-up,Matt Murphy,Partner,Employee Referral,50%,In forecast,,,2025-10-29,,,,,,,,,unlikely,,,,,,,,,,,,,,,,,,,,,,
-Mayfield Medical Practice_IMMS_Part Two,,,Income Gen,6000,2026-05-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-11-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Chapel Group Medical Centre,,,SMMS,749,2028-12-12,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,,2025-12-09,,2028-09-01,,,,Yes,2028-12-12,2029-12-12,,Clare Richardson,,,Clare Richardson,clare.richardson@nhs.net,"Chapel Group Medical Centre
 220 Liverpool Road
 Irlam
@@ -77,25 +73,25 @@ Smithdown Road
 Liverpool 
 Merseyside
 L15 2LQ",Invoice,Annual,Remote,,,,Simon.Turton@livgp.nhs.uk,,,,,,,,,
-Surrey Heartlands ICB,,,SMMS,30000,2026-07-31,Renewal,Proposal Sent,New Opportunity,Richard Stoddart,ICB,Existing customer relations,50%,In forecast,,NA - user@example.com,2025-03-31,,2026-05-19,,,,,2026-04-01,2027-04-01,,,,,,,,Invoice,Annual,Remote,,,,nikki.mallinder@nhs.net,,,,,,,,,
+Surrey Heartlands ICB,,,SMMS,30000,2026-07-31,Renewal,Proposal Sent,New Opportunity,Richard Stoddart,ICB,Existing customer relations,50%,In forecast,,NA - user@example.com,2025-03-31,,2026-05-29,,,,,2026-04-01,2027-04-01,,,,,,,,Invoice,Annual,Remote,,,,nikki.mallinder@nhs.net,,,,,,,,,
 North West Leicestershire GP Federation/PCN,,,SMMS,2000,2028-03-10,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,BP Birmingham,50%,In forecast,,,2026-01-05,2024-11-15,2027-12-01,,,,Yes,2028-03-10,2029-03-09,,Clare Fountain,,,Clare Fountain,clare.fountain1@nhs.net,"NWL GP Federation
 Whitwick Health Centre
 67 North Street 
 LE67 5HX",Invoice,Annual,Remote,,,,clare.fountain1@nhs.net,,,,,,,,,
-Bolton - Patient Comms,,,DTMS,100000,2026-05-29,New,Proposal Sent,Proposal Sent,Richard Stoddart,ICB,Existing customer relations,100%,In forecast,,NA - user@example.com,2025-08-01,2025-08-20,2026-05-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bolton - Patient Comms,,,DTMS,100000,2026-07-31,New,Proposal Sent,Proposal Sent,Richard Stoddart,ICB,Existing customer relations,100%,In forecast,,NA - user@example.com,2025-08-01,2025-08-20,2026-05-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SWL Renewal 2026,,,Strategic,75000,2026-05-31,Renewal,Initial Discussion,New Opportunity,Tom Owen,ICB,Existing customer relations,10%,NOT in forecast,,,2025-11-04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 NHS South East renewal 2026,,,Strategic,40000,2026-06-30,Renewal,Initial Discussion,New Opportunity,Matt Sweeney,Regional Team,Existing customer relations,50%,In forecast,,,2025-11-04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Jai Medical NCL,,,SMMS,900,2026-05-29,Renewal,Initial Discussion,Contract Sent,Richard Stoddart,Practice,Existing customer relations,80%,In forecast,,suresh.vaghela@nhs.net,2025-07-31,,2026-05-15,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre
-114 Edgwarebury Lane
-Edgwaare
-Middlesex
-HA8 8NB",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
 Coventry & Rugby GP Alliance ATP Practices,,,SMMS,2495,2027-07-02,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,GP Federation,Existing customer relations,50%,In forecast,,,2026-01-05,,2027-03-01,,,,Yes,2027-07-02,2028-06-30,,Rebecca Haughton,,,Rebecca Haughton,Rebecca.Haughton2@nhs.net,"Coventry & Rugby GP Alliance,
 Unit 1, Boiler House,
 Sandy Lane, 
 Coventry/ West Midlands,
 CV1 4JU",Invoice,Annual,Remote,,,,rebecca.haughton2@nhs.net,,,,,,,,,
-Jai Medical Centre Brent,,,SMMS,900,2026-05-29,Renewal,Initial Discussion,Contract Sent,Richard Stoddart,Practice,Existing customer relations,80%,In forecast,,suresh.vaghela@nhs.net,2025-07-31,,2026-05-15,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre (Brent)
+Jai Medical NCL,,,SMMS,900,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,suresh.vaghela@nhs.net,2026-05-11,,2027-03-01,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre
+114 Edgwarebury Lane
+Edgwaare
+Middlesex
+HA8 8NB",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
+Jai Medical Centre Brent,,,SMMS,900,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,suresh.vaghela@nhs.net,2026-05-11,,2027-03-01,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre (Brent)
 82 Staglane
 Edgware
 Middlesex
@@ -104,7 +100,7 @@ COCO PCN,,,SMMS,499,2027-05-21,Renewal,Initial Discussion,New Opportunity,Richar
 STepgates
 Chertsey surrey KT168hz",Invoice,Annual,Remote,,,,melissa.shiel@nhs.net,,,,,,,,,
 Lambeth Digital Inclusion Tool - Hosting Jul 25-Jul 26 (copy),,,Creative,600,2026-07-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,80%,In forecast,,NA - user@example.com,2025-07-31,,2026-05-29,,,,,,,,,,,,,,Invoice,Annual,Remote,,,,,,,,,,,,,
-Rother Valley South PCN,,,SMMS,499,2026-07-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,katie.smith61@nhs.net,2025-08-01,,2026-05-15,,,,,2026-07-31,2027-07-30,,Katie Smith,,,Katie Smith,katie.smith61@nhs.net,"Rother Valley South PCN Ltd
+Rother Valley South PCN,,,SMMS,499,2026-07-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,katie.smith61@nhs.net,2025-08-01,,2026-05-29,,,,,2026-07-31,2027-07-30,,Katie Smith,,,Katie Smith,katie.smith61@nhs.net,"Rother Valley South PCN Ltd
 Dinnington Surgery, New Street
 Sheffield Yorkshire S81 8HF",Invoice,Annual,Remote,,,,katie.smith61@nhs.net,,,,,,,,,
 Filey and Scarborough Healthier Communities Network,,,SMMS,1996,2026-08-21,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,,2025-07-31,,2026-06-01,,,,Yes,2026-08-21,2027-08-20,,James Bowman,,,James Bowman,james.bowman@nhs.net,"Filey and Scarborough Healthier Communities Network
@@ -149,7 +145,7 @@ South Fulham PCN,,,SMMS,2880,2026-12-17,Renewal,Initial Discussion,New Opportuni
 5-7 Parsons Green
 London London SW6 4UL",Invoice,Annual,Remote,,,,,,,,,,,,,
 OneAdvanced Scotland (Docman Training),,,Partnerships,96000,2026-05-31,New,Proposal Sent,New Opportunity,Dan H,Partner,Existing customer relations,10%,NOT in forecast,,,2026-01-09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Dinnington Group Practice,,,SMMS,440,2026-05-29,New,Proposal Sent,Proposal Sent,Richard Stoddart,Practice,Personal email campaign,80%,In forecast,,kathryn.allen7@nhs.net,2026-01-16,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dinnington Group Practice,,,SMMS,480,2026-05-29,New,Proposal Sent,Proposal Sent,Richard Stoddart,Practice,Personal email campaign,80%,In forecast,,kathryn.allen7@nhs.net,2026-01-16,,2026-05-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Sale PCN,,,DTMS,12500,2026-07-15,Renewal,Initial Discussion,New Opportunity,Dillon Sykes,PCN,Existing customer relations,10%,NOT in forecast,,,2026-01-16,2026-04-17,,,,,,,,will happen,,,,,,,Invoice,,,,,,,,,,,,,,,
 Hyndburn Central PCN  renewal,,,DTMS,24500,2026-05-14,Renewal,Initial Discussion,New Opportunity,Dillon Sykes,PCN,Existing customer relations,50%,In forecast,,,2026-01-16,2025-01-27,,,,,,2024-07-01,2024-06-30,unlikely,Hyndburn Central PCN,,,,,,Invoice,Monthly,,,,,,,2025-04-22,,,,,,,
 Colchester Medical Group (PCN Nat Test Site) (copy),,,DTMS,10000,2027-03-26,Renewal,Initial Discussion,New Opportunity,Dillon Sykes,PCN,BP Birmingham,10%,NOT in forecast,,,2026-01-16,,,,,,,,,,,,,,,,,,Remote,,,,joe.oxley2@nhs.net,,,,,,,,,
@@ -159,7 +155,7 @@ Barnsley Borough Council,,,Public Health,24600,2026-05-29,New,Proposal Sent,2nd 
 Holt Medical Practice,,,SMMS,480,2026-07-08,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,ben.mcgarry@nhs.net,2025-11-04,,2026-06-30,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Derry GP Federation - Prevention Engagement,,,Public Health,5000,2026-05-29,New,Initial Discussion,New Opportunity,Dillon Sykes,GP Federation,Marketing campaign,10%,NOT in forecast,,,2026-01-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Operose,,,SMMS/AI,25000,2026-06-30,New,Advanced Discussion,New Opportunity,Richard Stoddart,Private Practice,Word of mouth,50%,In forecast,,NA - user@example.com,2026-01-28,,2026-05-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fenland PCN,,,SMMS,300,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,m.williams49@nhs.net,2026-03-24,,2026-05-15,,,,,2026-04-01,2027-04-01,,Mark Williams,,,Mark Williams,m.williams49@nhs.net,,DD,Monthly,Remote,,,,,,,,,,,,,
+Fenland PCN,,,SMMS,300,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,m.williams49@nhs.net,2026-03-24,,2026-05-19,,,,,2026-04-01,2027-04-01,,Mark Williams,,,Mark Williams,m.williams49@nhs.net,,DD,Monthly,Remote,,,,,,,,,,,,,
 Falcon Road Website,,,Creative,500,2026-06-30,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,NA - user@example.com,2026-02-06,,2026-05-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hippo Digital PDS Tender,,,Partnerships,100000,2026-05-29,New,Initial Discussion,New Opportunity,Matt Murphy,Partner,Tender,10%,NOT in forecast,,,2026-02-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Engage Health - SMMS Partnership,,,Partnerships,5000,2026-05-29,New,Advanced Discussion,New Opportunity,Dillon Sykes,Partner,Word of mouth,80%,In forecast,,,2026-02-12,,,,,,,,,,,,,Claire Flynn,claire.flynn@engagehealth.uk,,,,,,,,,,,,,,,,,
@@ -169,33 +165,27 @@ Gloucestershire County Council - NHS HC,,,Public Health,24600,2026-05-29,New,Pro
 PLS National Framework,,,Strategic,1000000,2026-05-18,New,Proposal Sent,New Opportunity,Dillon Sykes,National NHS,Tender,10%,NOT in forecast,,,2026-03-16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SWL PH,,,Public Health,25000,2026-05-31,New,Initial Discussion,New Opportunity,Tom Owen,ICB,Word of mouth,10%,NOT in forecast,,,2026-03-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wigan Council -D&T Managed Service,,,Public Health,70000,2026-05-29,New,Initial Discussion,New Opportunity,Dillon Sykes,Local Authority,Marketing campaign,50%,In forecast,,,2026-03-24,,,,,,,,,,,,,Amy Dunne,Amy.Dunne@wigan.gov.uk,,,,,,,,,,,,,,,,,
-Peel GPS,,,SMMS,300,2026-06-06,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,leanne.nally@nhs.net,2026-03-17,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hornsey Park Surgery,,,Creative,1000,2026-06-30,New,Advanced Discussion,New Opportunity,Chris Horne,Practice,Cold Email,50%,In forecast,,,2026-03-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Stretton Medical,,,SMMS,300,2026-06-30,New,Advanced Discussion,Contract Sent,Richard Stoddart,Practice,Cold Email,10%,NOT in forecast,,lauren.haslam2@nhs.net,2026-03-18,,2026-05-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Peel GPS,,,SMMS,300,2026-06-30,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Personal email campaign,10%,NOT in forecast,,leanne.nally@nhs.net,2026-03-17,,2026-05-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hornsey Park Surgery,,,Creative,1000,2026-06-30,New,Advanced Discussion,New Opportunity,Chris Horne,Practice,Personal email campaign,50%,In forecast,,,2026-03-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Primary Eye Care -Deployment of referral system,,,Partnerships,235000,2026-05-15,New,Proposal Sent,New Opportunity,Dillon Sykes,Partner,Employee Referral,10%,NOT in forecast,,,2026-03-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 OneAdvanced CSO services scope expansion,,,Partnerships,50000,2026-12-31,New,Initial Discussion,New Opportunity,Matt Murphy,Partner,Partner,10%,NOT in forecast,,,2026-03-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-North East and North Cumbria ICB (FP),,,FPP,148000,2026-09-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,Cold Email,10%,NOT in forecast,,,2026-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+North East and North Cumbria ICB (FP),,,FPP,148000,2026-09-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,Personal email campaign,10%,NOT in forecast,,,2026-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lindus Health - LifeSciences,,,Partnerships,20000,2026-05-29,New,Initial Discussion,2nd Follow-up,Dillon Sykes,Partner,Employee Referral,50%,In forecast,,,2026-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "Cambridge & Peterborough ICB (Central East) - NHS HC, MGP, preventino work",,,Strategic,26400,2026-05-29,New,Initial Discussion,In Conversation,Dillon Sykes,ICB,Existing customer relations,10%,NOT in forecast,,,2026-04-01,,,,,,,,,,,,,emma Turner,emma.turner73@nhs.net,,,,,,,,,,,,,,,,,
 OneAdvanced Customer Success PATCHS and Docman,,,Partnerships,100000,2026-06-30,New,Initial Discussion,New Opportunity,Matt Murphy,Partner,Existing customer relations,50%,In forecast,,,2026-04-09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Greater Manchester Training Hub - Docman training,,,Training,1487,2026-05-15,New,Initial Discussion,New Opportunity,Dillon Sykes,Training Hub,Word of mouth,50%,In forecast,,,2026-04-09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Groombridge & Hartfield MG - Basic Summarising Course,,,Training,99,2026-05-28,New,Proposal Sent,New Opportunity,Dillon Sykes,Practice,Website,50%,In forecast,,,2026-04-13,,,,,,,,,,,,,Sharon Monger,sharon.monger2@nhs.net,,,,,,,,,,,,,,,,,
 Barking & Dagenham Neighbourhood Phase 2,,,Creative,12000,2026-05-15,New,Proposal Sent,New Opportunity,Matt Sweeney,Neighbourhood,Existing customer relations,50%,In forecast,,,2026-04-13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lancashire&South Cumbria (FP),,,FPP,120000,2026-09-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,,10%,NOT in forecast,,,2026-04-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancashire&South Cumbria (FP),,,FPP,120000,2026-09-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,Marketing campaign,10%,NOT in forecast,,,2026-04-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 NHS Staffs & Shropshire FPP support,,,FPP,120000,2026-05-29,New,Proposal Sent,New Opportunity,Matt Murphy,ICB,Marketing campaign,10%,NOT in forecast,,,2026-04-13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lancashire & South Cumbria (Contract compliance support),,,Strategic,150000,2026-06-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,,10%,NOT in forecast,,,2026-04-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancashire & South Cumbria (Contract compliance support),,,Strategic,150000,2026-06-30,New,Proposal Sent,New Opportunity,Dillon Sykes,ICB,Employee Referral,10%,NOT in forecast,,,2026-04-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Central East ICB -Digital Front Door Support,,,Strategic,65000,2026-05-29,New,Proposal Sent,In Conversation,Dillon Sykes,ICB,Existing customer relations,10%,NOT in forecast,,,2026-04-15,,,,,,,,,,,,,Emma Turner,emma.turner73@nhs.net,,,,,,,,,,,,,,,,,
-Sid Valley Practice,,,SMMS,480,2026-05-29,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,jessie.hay@nhs.net,2026-01-05,,2026-05-15,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-The Spa Surgery Harrogate - Grow Your Own List Size,,,List Growth,18000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-20,2026-05-11,,,,,,,,,,,,Michael Drew,michael.drew2@nhs.net,,,Monthly,,,,,,,,,,,,,,
-GPS Healthcare - Grow Your Own List Size,,,List Growth,30000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-21,,,,,,,,,,,,,simon tunnicliffe,simon.tunnicliffe3@nhs.net,,,,,,,,,,,,,,,,,
+Sid Valley Practice,,,SMMS,480,2026-06-30,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,jessie.hay@nhs.net,2026-01-05,,2026-05-27,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+The Spa Surgery Harrogate - Grow Your Own List Size,,,List Growth,18000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-20,2026-05-18,,,,,,,,,,,,Michael Drew,michael.drew2@nhs.net,,,Monthly,,,,,,,,,,,,,,
+GPS Healthcare - Grow Your Own List Size,,,List Growth,30000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,100%,In forecast,,,2026-04-21,,,,,,,,,,,,,simon tunnicliffe,simon.tunnicliffe3@nhs.net,,,,,,,,,,,,,,,,,
 Warwick House Medical Practice,,,List Growth,9000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-27,2026-04-20,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Abbeywell Surgery,,,List Growth,22000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Webinar,50%,In forecast,,,2026-04-27,2026-04-10,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Coventry Road Practice,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Webinar,50%,In forecast,,,2026-04-27,2026-04-16,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Heathbridge Practice,,,List Growth,22800,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Webinar,50%,In forecast,,,2026-04-27,2026-04-16,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Barlow Medical Centre,,,List Growth,18000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Webinar,10%,NOT in forecast,,luke.bowen4@nhs.net,2026-04-27,2026-04-17 09:00,,,,,,,,,,,,jacqueline.stewart-martin,jacqueline.stewart-martin@nhs.net,,,,,,,,,,,,,,,,,
-Victoria Road Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-27,2026-04-21,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Crown Medical Practice,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-27,2026-04-22,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Tudor Lodge Health Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-27,2026-04-22,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Mytton Oak Medical Practice,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-27,2026-04-22,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Darwen Healthcare,,,List Growth,36000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Webinar,50%,In forecast,,,2026-04-27,2026-04-23,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Langworthy Medical Practice and University of Salford Health Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Webinar,10%,NOT in forecast,,,2026-04-27,2026-04-23,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
@@ -203,11 +193,9 @@ Rushey Mead Health Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,Propo
 Westlands Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-24,,,,,,,,,,,,,,daniel.stride1@nhs.net,,Invoice,Monthly,Remote,,,,,,,,,,,,,
 St Martins Medical Centre,,,List Growth,18000,2026-05-22,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-24,,,,,,,,,,Pooja Kalra,,,,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
 Densham Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-27,2026-04-27,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Swan Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Webinar,50%,In forecast,,,2026-04-27,,,,,,,,,,,,,Kevin Whomes,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
-Brocklebank PCN,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,50%,In forecast,,,2026-04-27,,,,,,,,,,,,,,yasotharan.paramesparan@nhs.net,,Invoice,Monthly,Remote,,,,,,,,,,,,,
-Whitewater Health,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Swan Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Webinar,100%,In forecast,,,2026-04-27,,,,,,,,,,,,,Kevin Whomes,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
 Channel 3 MoD SystmOne training project,,,Training,48000,2026-05-29,New,Initial Discussion,New Opportunity,Matt Murphy,Partner,Partner,50%,In forecast,,,2026-04-28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NEWCASTLE GENERAL PRACTICE SERVICES LTD,,,SMMS,3960,2026-05-28,New,Proposal Sent,Contract Sent,Richard Stoddart,PCN,Cold Email,80%,In forecast,,lisa.wooton@nhs.net,2026-04-27,,2026-05-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Newcastle Outer West PCN,,,SMMS,3960,2027-05-12,New,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Personal email campaign,80%,In forecast,,lisa.wooton@nhs.net,2026-05-12,,2027-03-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Park Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-28,2026-04-28,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Beckett House Practice,,,List Growth,9000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-28,2026-04-28,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Brondesbury Medical Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-04-28,2026-04-28,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
@@ -225,13 +213,13 @@ Tarleton Group Practice,,,SMMS,440,2026-10-01,Renewal,Initial Discussion,New Opp
 Gorse Lane Tarleton Pr4 6UJ",Invoice,Annual,Face to Face,,,,,,,,,,,,,
 Dr Matt Teesdale,,,AI,440,2026-10-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,BP Birmingham,50%,In forecast,,,2026-04-29,,2026-08-01,,,,,,,,Penistone Group Practice,,,Dr Matthew Teesdale,teesdale81@gmail.com,"Penistone Group Practice
 19 High Street, Penistone, S36 6BR",Invoice,Annual,Remote,,,,,,,,,,,,,
-Blackthorn Health Centre,,,SMMS/AI,440,2026-12-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Derby LMC Event,50%,In forecast,,,2026-04-29,,2026-08-01,,,,,,,,Jennie Dock,,,Zoe Kynes,hiowicb-hsi.hvhfinance@nhs.net,"Centre
+Blackthorn Health Centre,,,SMMS/AI,440,2026-12-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Local Event,50%,In forecast,,,2026-04-29,,2026-08-01,,,,,,,,Jennie Dock,,,Zoe Kynes,hiowicb-hsi.hvhfinance@nhs.net,"Centre
 Satchell Lane Southampton SO31 4NQ",Invoice,One off,Remote,,,,,,,,,,,,,
 Orient Road Medical Practice,,,SMMS,660,2026-10-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,BP Birmingham,50%,In forecast,,,2026-04-29,,2026-08-01,,,,,,,,Orient Road Medical Practice,,,Dr. V Selvaraasan,v.selvaraasan@nhs.net,"37 Orient Road
 Salford Lancashire M68LE",Invoice,One off,Remote,,,,,,,,,,,,,
 Swan Surgery,,,SMMS,400,2026-10-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,BP Birmingham,50%,In forecast,,,2026-04-29,,2026-08-01,,,,,,,,Swan Surgery,,,Kevin Whomes,kevin.whomes@nhs.net,"Northgate Business Park, Northgate Street
 Bury St Edmunds Suffolk IP33 1AE",Invoice,Annual,Remote,,,,,,,,,,,,,
-Lovemead Group Practice,,,SMMS/AI,1250,2027-05-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Derby LMC Event,50%,In forecast,,,2026-04-29,,2026-10-01,,,,,,,,Lovemead Group Practice,,,Suzanne Petty,bswicb.roundstone.accounts@nhs.net,"Roundstone Surgery, Polebarn Circus, 
+Lovemead Group Practice,,,SMMS/AI,1250,2027-05-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Local Event,50%,In forecast,,,2026-04-29,,2026-10-01,,,,,,,,Lovemead Group Practice,,,Suzanne Petty,bswicb.roundstone.accounts@nhs.net,"Roundstone Surgery, Polebarn Circus, 
 Trowbridge Wiltshire BA14 7EH",Invoice,Annual,Remote,,,,,,,,,,,,,
 Swan Surgery 2026,,,SMMS,400,2026-12-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,BP Birmingham,50%,In forecast,,,2026-04-29,,2026-10-01,,,,,,,,Swan Surgery,,,Kevin Whomes,kevin.whomes@nhs.net,"Northgate Business Park, Northgate Street
 Bury St Edmunds Suffolk IP33 1AE",Invoice,Annual,Remote,,,,,,,,,,,,,
@@ -264,49 +252,80 @@ London N9 7HD",Invoice,Annual,Remote,,,,,,,,,,,,,
 "Balham, Tooting & Furzedown",,,SMMS,2250,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Personal email campaign,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,"Balham, Tooting & Furzedown",,,Shelby Lawrence,shelby.lawrence@nhs.net,"120 Bedford Hill
 London Greater London SW12 9HS",Invoice,Annual,Remote,,,,,,,,,,,,,
 North West Leadership - Animations,,,Creative,1800,2026-09-30,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,ICB,Existing customer relations,10%,NOT in forecast,,,2026-04-29,,2026-11-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-The Clanfield Practice,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,The Clanfield Practice,,,Claire Jelley,claire.jelley@nhs.net,"2 White Dirt Lane, Clanfield
+The Clanfield Practice,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,The Clanfield Practice,,,Claire Jelley,claire.jelley@nhs.net,"2 White Dirt Lane, Clanfield
 Waterlooville Hants PO8 0Q",Invoice,Annual,Remote,,,,,,,,,,,,,
-Higherfolds Community Centre,,,SMMS,499,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Neighbourhood,Cold Email,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Higher Folds Community Centre and Early Years Nursery,,,Mr David Rainford,dave@higherfolds.co.uk,"Stirling Close
+Higherfolds Community Centre,,,SMMS,499,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Neighbourhood,Personal email campaign,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Higher Folds Community Centre and Early Years Nursery,,,Mr David Rainford,dave@higherfolds.co.uk,"Stirling Close
 Higher Folds Leigh WN7 2UB",Invoice,Annual,Remote,,,,,,,,,,,,,
 Herts Smoke Free -  Part 2,,,Creative,14000,2026-12-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Local Authority,Existing customer relations,10%,NOT in forecast,,,2026-04-29,,2026-11-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Beechwood Surgery,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Beechwood Surger,,,Clare Mulhall,clare.mulhall3@nhs.net,"155 Victoria Road East
+Beechwood Surgery,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Beechwood Surger,,,Clare Mulhall,clare.mulhall3@nhs.net,"155 Victoria Road East
 Thornton Cleveleys Lancs FY5 5HH",Invoice,Annual,Remote,,,,,,,,,,,,,
-Fremington,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Fremington Medical Centre,,,Kate Graddock,k.graddock@nhs.net,"11-13 Beards Road, Fremington
+Fremington,,,SMMS,300,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,,2026-04-29,,2026-11-01,,,,,,,,Fremington Medical Centre,,,Kate Graddock,k.graddock@nhs.net,"11-13 Beards Road, Fremington
 Barnstaple Devon EX312PG",Invoice,Annual,Remote,,,,,,,,,,,,,
-ASA Medical Group,,,SMMS,300,2027-03-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,,2026-04-29,,2027-01-01,,,,,,,,ASA Medical Group,,,Claire Oxley,claire.oxley4@nhs.net,"Mere Lane, Armthorpe
+ASA Medical Group,,,SMMS,300,2027-03-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,,2026-04-29,,2027-01-01,,,,,,,,ASA Medical Group,,,Claire Oxley,claire.oxley4@nhs.net,"Mere Lane, Armthorpe
 Doncaster South Yorkshire DN3 2DB",Invoice,One off,Remote,,,,,,,,,,,,,
-Chapelfield - AI Batch VIdeos,,,AI,550,2026-08-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Hull,50%,In forecast,,,2026-04-29,,2027-01-01,,,,,,,,,,,Sam Dye,s.dye@nhs.net,"Chapelfield Medical centre
+Chapelfield - AI Batch VIdeos,,,AI,550,2026-08-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Local Event,50%,In forecast,,,2026-04-29,,2027-01-01,,,,,,,,,,,Sam Dye,s.dye@nhs.net,"Chapelfield Medical centre
 Mayflower Way, Wombwel",Invoice,One off,Remote,,,,,,,,,,,,,
-Doncaster North PCN,,,SMMS,1800,2027-03-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,ashley.crowson@nhs.net,2026-04-29,,2027-01-01,,,,,,,,Doncaster North PCN,,,Nikki Errington,nikki.errington@nhs.net,"Park View Surgery, Newton Lane, Sprotbrough Doncaster South Yorkshire DN5 8D",Invoice,Annual,Remote,,,,,,,,,,,,,
+Doncaster North PCN,,,SMMS,1800,2027-03-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,ashley.crowson@nhs.net,2026-04-29,,2027-01-01,,,,,,,,Doncaster North PCN,,,Nikki Errington,nikki.errington@nhs.net,"Park View Surgery, Newton Lane, Sprotbrough Doncaster South Yorkshire DN5 8D",Invoice,Annual,Remote,,,,,,,,,,,,,
 Aspiro Healthcare,,,SMMS,660,2027-03-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,,2026-04-29,,2027-01-01,,,,,,,,Aspiro Healthcare Woodsend Medical Centre,,,Aspiro Healthcare Woodsend Medical Centre,claire.allen34@nhs.net,"School Place
 Corby Northants NN18 0Q",Invoice,Monthly,Remote,,,,,,,,,,,,,
-Integrated  Care Partnership,,,List Growth,30000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Knowle Green Medical,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Forge Medical,,,List Growth,30000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ringmead Medical Group,,,List Growth,30000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Woodcote Medical,,,List Growth,30000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Millfield Medical Group,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Paston Surgery,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Prentis Medical Centre,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Glenlyn Medical Centre,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sunny Meed Surgery,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sands End Health Clinic,,,List Growth,18000,2026-05-15,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Integrated  Care Partnership,,,List Growth,30000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Knowle Green Medical,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Forge Medical,,,List Growth,30000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ringmead Medical Group,,,List Growth,30000,2026-05-29,New,Proposal Sent,In Conversation,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Woodcote Medical,,,List Growth,30000,2026-05-29,New,Proposal Sent,In Conversation,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Millfield Medical Group,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Paston Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,In Conversation,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Prentis Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Glenlyn Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sunny Meed Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sands End Health Clinic,,,List Growth,18000,2026-05-29,New,Proposal Sent,1st Follow-up,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Somerset Gardens Family Health Care Centre,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-05-05,2026-04-30,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Wandsworth Medical Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wandsworth Medical Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Swanswell Medical Practice,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-05-05,2026-04-30,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Mostapha,,,SMMS,600,2026-06-30,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Website,10%,NOT in forecast,,,2026-04-30,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PCN 5,,,SMMS,4300,2026-07-31,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Social Media,50%,In forecast,,sarah.rhodes@bradford.nhs.uk,2026-05-01,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Health Care First,,,List Growth,36000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,2026-05-05,2026-05-01,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Sefton Park Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ellison View Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,New Opportunity,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Rustlings Road Medical Centre,,,SMMS,600,2026-05-30,Renewal,Proposal Sent,Contract Sent,Richard Stoddart,Practice,,80%,In forecast,,annie.stones@nhs.net,2026-05-07,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Broomhill Surgery,,,SMMS,480,2026-05-31,Renewal,Advanced Discussion,In Conversation,Richard Stoddart,Practice,,50%,In forecast,,helen.foster12@nhs.net,2026-05-07,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Enderley Road Medical Centre,,,SMMS,600,2027-05-14,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Website,80%,NOT in forecast,,m.raji1@nhs.net,2026-05-14,,2027-03-01,,,,,,,,Enderley Road Medical Centr,,,Mostafa Raji,m.raji1@nhs.net,"41-45 Enderley Road
+Harrow UK HA3 5HF",Invoice,Annual,Remote,,,,,,,,,,,,,
+PCN 5,,,SMMS,4300,2026-07-31,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Social Media,50%,In forecast,,sarah.rhodes@bradford.nhs.uk,2026-05-01,,2026-05-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Health Care First,,,List Growth,36000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,100%,In forecast,,,2026-05-05,2026-05-01,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Sefton Park Medical Centre,,,List Growth,18000,2026-05-29,New,Proposal Sent,In Conversation,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ellison View Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rustlings Road Medical Centre,,,SMMS,480,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,80%,In forecast,,annie.stones@nhs.net,2026-05-11,,2027-03-01,,,,,,,,Rustlings Road Surger,,,Annie Stones,annie.stones@nhs.net,"105 Rustlings Road
+Sheffield South Yorkshire S11 7AB",Invoice,Annual,Remote,,,,,,,,,,,,,
+Broomhill Surgery,,,SMMS,600,2026-05-31,Renewal,Advanced Discussion,In Conversation,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,helen.foster12@nhs.net,2026-05-07,,2026-05-21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Spring House Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,,2026-05-07,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Boroughbury Medical Centre,,,SMMS,1440,2027-05-07,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Social Media,80%,In forecast,,k.remedios@nhs.net,2026-05-07,,2027-02-01,,,,,,,,Boroughbury Medical Centr,,,Ms Julie Trig,julie.trigg@nhs.net,"Craig Street
 Peterborough Cambs PE1 2EJ",DD,Monthly,Remote,,,,,,,,,,,,,
-Woodseats Medical Centre,,,List Growth,24000,2026-05-29,New,Proposal Sent,Proposal Sent,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,,2026-05-07,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Aspiro,,,SMMS,480,2026-06-30,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,,80%,In forecast,,sam.harper6@nhs.net,2026-05-08,,2026-05-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Falkland House Surgery,,,SMMS,600,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,,100%,In forecast,,zoey.hall@nhs.net,2026-05-08,,2027-03-01,,,,,,,,Falkland House Surgery,,,Zoey Hall,zoey.hall@nhs.net,"2a,  Falkland Road Yorkshire S11 7P",Invoice,Annual,Remote,,,,,,,,,,,,,
+Aspiro Healthcare 2,,,SMMS,600,2027-05-13,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Word of mouth,100%,In forecast,,sam.harper6@nhs.net,2026-05-13,,2027-03-01,,,,,,,,Aspiro Healthcare,,,Sam Mahon,northantsicb.woodsend.finance@nhs.net,"Hollybrook Medical Centre, Hollybrook Way, Littleover
+Derby Derbyshire DE233TX",,,,,,,,,,,,,,,,
+Falkland House Surgery,,,SMMS,600,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,zoey.hall@nhs.net,2026-05-08,,2027-03-01,,,,,,,,Falkland House Surgery,,,Zoey Hall,zoey.hall@nhs.net,"2a,  Falkland Road Yorkshire S11 7P",Invoice,Annual,Remote,,,,,,,,,,,,,
+Penzance Chiropractic Clinic - Left the service,,,SMMS,1,2026-05-30,Renewal,Initial Discussion,1st Follow-up,Richard Stoddart,Private Practice,Existing customer relations,10%,In forecast,,boscarnekhealth@gmail.com,2026-05-11,,2026-08-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Riverside Practice,,,SMMS,600,2026-06-30,New,Proposal Sent,Contract Sent,Richard Stoddart,Practice,Word of mouth,80%,In forecast,,tracyrobertson@nhs.net,2026-05-11,,2026-05-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pearl Medical Centre,,,SMMS,600,2026-05-30,Renewal,Advanced Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,paritamehta@nhs.net,2026-05-11,,2027-03-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pharmcare Ltd T/A Mitchell's Chemist,,,Pharmacy SMMS,600,2026-06-12,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Pharmacy,Personal email campaign,50%,In forecast,,,2026-05-11,,2026-05-22,,,,,2025-06-11,2026-06-11,,Daniel Brash,,,Daniel Brash,daniel.brash@gmail.com,"Pharmcare Ltd T/A Mitchell's Chemist
+88 New Road Side
+Leeds
+West Yorkshire
+LS18 4QB",Invoice,Annual,Remote,,,,,,,,,,,,,
+Eason Pharmacy,,,Pharmacy SMMS,600,2027-06-19,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Pharmacy,Employee Referral,50%,In forecast,,info@easonpharmacy.com,2026-05-12,,2027-03-01,,,,,2025-06-16,,,Kilcrona Ltd,,,Kieran Eason,info@easonpharmacy.com,"215a Watling Street, Tamworth, B775BB",Invoice,Annual,Remote,,,,,,,,,,,,,Richard Stoddart
+PRIORY FIELDS SURGERY,,,SMMS,360,2027-03-19,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,,2026-05-11,,2027-03-01,,,,,2026-04-01,2027-04-01,,Emily Ross,,,Emily Ross,emily.ross@nhs.net,"Priory Fields Partnership
+Doctors Surgery, Nursery Road
+Huntingdon Cambs PE29 3RL",DD,Monthly,Remote,,,,,,,,,,,,,
+Wandsworth Medical Centre - Insta,,,SMMS,200,2027-05-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,50%,In forecast,,tania.schroeder@nhs.net,2026-05-12,,2027-02-26,,,,,,,,Wandsworth Medical Centre,,,Tauseef Ahmed,tauseef.ahmed@capshire.com,"90-92 Garratt Lane Wandsworth London
+SW18 4DD",Invoice,Annual,Remote,,,,,,,,,,,,,
+"NORTH ROAD SUITE,RAVENSTHORPE HEALTH CTR",,,SMMS,600,2026-08-31,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,10%,,,justin.wood@nhs.net,2026-05-12,,2026-05-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Molebridge Practice,,,List Growth,18000,2026-05-29,New,Advanced Discussion,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grove Surgery,,,List Growth,30000,2026-05-29,New,Advanced Discussion,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Southgate Surgical & Medical Centre,,,List Growth,18000,2026-05-29,New,Advanced Discussion,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ashlea Medical Centre,,,List Growth,30000,2026-05-29,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,50%,In forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Market Street Medical Practice,,,List Growth,30000,2026-05-29,New,Advanced Discussion,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Belsize Priory,,,List Growth,18000,2026-05-29,New,Advanced Discussion,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Boundary House Medical Centre,,,SMMS,600,2026-06-30,New,Advanced Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,80%,,,susan.rust@nhs.net,2026-05-13,,2026-05-20,,,,,,,,,,,,tracyrobertson@nhs.net,,,,,,,,,,,,,,,,,
+Station House Surgery,,,List Growth,18000,2026-05-29,New,Proposal Sent,Proposal Sent,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Matt Orr Medical Ltd,,,AI,600,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Existing customer relations,10%,,,admin@orrmedical.co.uk,2026-05-14,,2026-12-01,,,,,,,,Orr Medical Ltd,,,Matt Orr,m.raji1@nhs.net - admin@orrmedical.co.uk,"48 Cross Keys Drive, Chorley, PR6 7TF",Invoice,Annual,Remote,,,,,,,,,,,,,
+Washway Road Medical,,,SMMS,600,2026-06-30,Renewal,Proposal Sent,Contract Sent,Richard Stoddart,Practice,Existing customer relations,80%,,,tanya.burton2@nhs.net,2026-05-13,,2026-05-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Porter Brook Medical Centre,,,List Growth,30000,2026-06-12,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-05-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Milehouse Medical Practice,,,List Growth,18000,2026-06-12,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,,,latif.hussain@staffs.nhs.uk,2026-05-14,,,,,,,,,,,,,,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
+Walkley House MP,,,List Growth,24000,2026-06-12,New,Proposal Sent,Proposal Sent,Dillon Sykes,Practice,Marketing campaign,10%,,,,2026-05-14,,,,,,,,,,,,,,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
+Firsway Health Centre,,,SMMS,600,2026-06-30,New,Proposal Sent,Contract Sent,Richard Stoddart,Practice,Existing customer relations,80%,,,helen.eames@nhs.net,2026-05-14,,2026-05-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SE Region Telephony Program,,,Strategic,200000,2022-09-21,,Won (100%),Closed Won,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Salford PCN Webinar x3,,,Training,1500,2022-10-25,,Won (100%),Closed Won,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SWL Merton Websites,,,Strategic,5600,2022-11-18,,Won (100%),Closed Won,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1169,7 +1188,7 @@ GP Health Partners Ltd,,,SMMS,480,2025-03-05,Renewal,Won (100%),Closed Won,Camer
 Leatherhead
 Surrey
 KT22 7PZ",DD,Monthly,Remote,,,,katherine.rush@nhs.net,,,,,,,,,
-South East Region yr3 (C3),,,Project Management,179500,2025-03-05,Renewal,Won (100%),Closed Won,Matt Murphy,Regional Team,Existing customer relations,,In forecast,,,,,,,,,Yes,,,Likely with greater value,,,,,,,,,Remote,,,,,,,,,,,,,
+South East Region yr3 (C3),,,Project Management,179500,2025-03-05,Renewal,Won (100%),Closed Won,Matt Murphy,Regional Team,Existing customer relations,50%,In forecast,,,,,,,,,Yes,,,Likely with greater value,,,,,,,,,Remote,,,,,,,,,,,,,
 South East Region yr3 (RH),,,DTMS,58000,2025-03-05,Renewal,Won (100%),New Opportunity,Matt Murphy,Regional Team,Existing customer relations,,In forecast,,,,,,,,,Yes,,,Likely with greater value,,,,,,,,,Remote,,,,,,,,,,,,,
 Primary Care Analytics - Website,,,Creative,4100,2025-03-06,New,Won (100%),Closed Won,Paul Galley,Partner,Employee Referral,,In forecast,,,,,,,,,,,,,,,,,,,,,Remote,,,,,,,,,,,,,
 Sefton Park Medical Centre,,,SMMS,499,2025-03-07,New,Won (100%),Closed Won,Cameron Booth,Practice,Personal email campaign,,In forecast,,,,,,,,,,2025-03-07,2026-03-06,,Simon Turton,,,,,"Sefton Park Medical Centre
@@ -1387,6 +1406,7 @@ Lambeth Digital Inclusion Tool - Hosting Jul 25-Jul 26,,,Creative,600,2025-06-27
 SMD Pharmacy,,,Pharmacy SMMS,480,2025-06-29,New,Won (100%),Closed Won,Richard Stoddart,Pharmacy,Personal email campaign,100%,In forecast,,,,,,,,,,2025-07-07,2026-07-05,,SMD Pharmacy,,,Harrison Perrin,smdpharmacy@hotmail.com,"Basement Medical Centre, St Brannocks Road, Devon, EX34 8EG",Invoice,Monthly,Remote,,,,,,,,,,,,,
 THE PEEL MEDICAL PRACTICE,,,SMMS,480,2025-06-30,Renewal,Won (100%),Closed Won,Cameron Booth,Practice,Existing customer relations,100%,In forecast,,,,,,,,,,2025-09-30,2026-09-30,,Sharon Crosby,,,Sharon Crosby,sharon.crosby@staffs.nhs.uk,"Peel Medical Practice
 2 Aldergate Tamworth B797DJ",DD,Monthly,Remote,,,,,,,,,,,,,
+SMD Pharmacy,,,Pharmacy SMMS,480,2025-06-29,New,Initial Discussion,New Opportunity,Richard Stoddart,Pharmacy,Personal email campaign,50%,In forecast,,,2026-05-11,,2026-05-29,,,,,2025-07-07,2026-07-05,,SMD Pharmacy,,,Harrison Perrin,smdpharmacy@hotmail.com,"Basement Medical Centre, St Brannocks Road, Devon, EX34 8EG",Invoice,Monthly,Remote,,,,,,,,,,,,,
 Corner Place Surgery,,,SMMS,480,2025-06-30,New,Won (100%),Closed Won,Cameron Booth,Practice,Existing customer relations,100%,In forecast,,,,,,,,,,2025-06-30,2026-06-30,,Evie Rogers,,,Evie Rogers,evie.rogers@nhs.net,"Corner Place Surgery
 46a Dartmouth Rd
 Paignton Devon TQ4 5AH",DD,Monthly,Remote,,,,,,,,,,,,,
@@ -2017,13 +2037,16 @@ Wellside Surgery,,,SMMS,300,2026-04-01,New,Won (100%),New Opportunity,Cameron Bo
 Huntingdon, 
 Cambs,
 PE28 5SU.",DD,Monthly,Remote,,,,,,,,,,,,,
+PRIORY FIELDS SURGERY,,,SMMS,360,2026-03-25,New,Won (100%),New Opportunity,Cameron Booth,Practice,Existing customer relations,100%,In forecast,,,2026-05-11,,,,,,,2026-04-01,2027-04-01,,Emily Ross,,,Emily Ross,emily.ross@nhs.net,"Priory Fields Partnership
+Doctors Surgery, Nursery Road
+Huntingdon Cambs PE29 3RL",DD,Monthly,Remote,,,,,,,,,,,,,
 The Spinney Surgery,,,SMMS,300,2026-04-01,New,Won (100%),New Opportunity,Cameron Booth,Practice,Existing customer relations,100%,In forecast,,,2026-04-01,,,,,,,2026-04-01,2027-04-01,,Rachel Smith,,,Rachel Smith,rachel.smith226@nhs.net,"Spinney Surgery
 Ramsey Road
 St Ives Cambridgeshire PE27 3TP",DD,Monthly,Remote,,,,,,,,,,,,,
 Derry GP Fed 3 x additional practices,,,SMMS,1440,2026-04-01,New,Won (100%),New Opportunity,Cameron Booth,GP Federation,Existing customer relations,100%,In forecast,,,2026-03-31,,,,,,,2026-03-31,2027-03-31,,Leeann Monk-Özgül,,,Leeann Monk-Özgül,Leeann.Monk-ozgul@westernfsu.co.uk,"Derry GP Federation
 Altnagelvin business park
 Derry Derry BT482DE",DD,Monthly,Remote,,,,,,,,,,,,,
-ELC Branding,,,Creative,350,2026-04-02,New,Won (100%),New Opportunity,Richard Stoddart,Practice,,100%,In forecast,,,2026-04-02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ELC Branding,,,Creative,350,2026-04-02,New,Won (100%),New Opportunity,Richard Stoddart,Practice,Employee Referral,100%,In forecast,,,2026-04-02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ASA Medical Group,,,SMMS,300,2026-04-02,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Cold Email,100%,In forecast,,,2026-03-31,,,,,,,,,,ASA Medical Group,,,Claire Oxley,claire.oxley4@nhs.net,"Mere Lane, Armthorpe
 Doncaster South Yorkshire DN3 2DB",Invoice,One off,Remote,,,,,,,,,,,,,
 Grove Medical Practice,,,SMMS,360,2026-04-02,New,Won (100%),New Opportunity,Cameron Booth,Practice,Existing customer relations,100%,In forecast,,,2026-03-31,,,,,,,2026-04-01,2027-04-01,,Simon Stitson,,,Simon Stitson,simon.stitson@nhs.net,"Grove Medical Practice
@@ -2060,7 +2083,7 @@ Haughton Thornley Medical Centres,,,SMMS,1440,2026-04-16,Renewal,Won (100%),New 
 Hyde
 Cheshire
 SK14 1JY",DD,Monthly,Remote,,,,rachel.hirst7@nhs.net,,,,,,,,,
-Priory Fields Surgery,,,List Growth,24000,2026-04-24,New,Won (100%),Closed Won,Cameron Booth,Practice,Webinar,100%,In forecast,,,2026-04-20,2026-04-22,,,,,,2026-05-01,2027-05-01,,Chelsea Wilson,,,Chelsea Wilson,chelsea.wilson@nhs.net,"Priory Fields Partnership
+Priory Fields Surgery,,,List Growth,24000,2026-05-11,New,Won (100%),Closed Won,Cameron Booth,Practice,Webinar,100%,In forecast,,,2026-04-20,2026-04-22,,,,,,2026-05-01,2027-05-01,,Chelsea Wilson,,,Chelsea Wilson,chelsea.wilson@nhs.net,"Priory Fields Partnership
 Doctors Surgery, Nursery Road
 Huntingdon Cambs PE29 3RL",DD,Monthly,Remote,,,,,,,,,,,,,
 Wentworth,,,SMMS,300,2026-04-27,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,,2026-04-27,,,,,,,,,,Jignasha Patel,,,Jignasha Patel,jignasha.patel@nhs.net,"Wentworth Medical Practice
@@ -2097,6 +2120,32 @@ London
 N8 8JD",DD,Monthly,Remote,,,,,,,,,,,,,
 Falkland House Surgery,,,SMMS,600,2026-05-08,Renewal,Won (100%),Contract Sent,Richard Stoddart,Practice,,100%,,,zoey.hall@nhs.net,2026-05-08,,2026-05-18,,,,,,,,Falkland House Surgery,,,Zoey Hall,zoey.hall@nhs.net,"2a,  Falkland Road Yorkshire S11 7P",Invoice,Annual,Remote,,,,,,,,,,,,,
 OneAdvanced PATCHS training PILOT,,,Partnerships,6194,2026-05-08,New,Won (100%),Closed Won,Matt Murphy,Partner,Existing customer relations,100%,In forecast,,,2026-04-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Abbeywell Surgery,,,List Growth,22000,2026-05-11,New,Won (100%),Closed Won,Cameron Booth,Practice,Webinar,100%,In forecast,,,2026-04-27,2026-04-10,,,,,,2026-05-11,2027-05-11,,Leanne Barter,,,Leanne Barter,leanne.barter@nhs.net,"The Abbey, Romsey, SO51 8EN, United Kingdom",DD,Monthly,Remote,,,,,,,,,,,,,
+Rustlings Road Medical Centre,,,SMMS,480,2026-05-11,Renewal,Won (100%),Contract Sent,Richard Stoddart,Practice,,100%,In forecast,,annie.stones@nhs.net,2026-05-07,,2026-05-18,,,,,,,,Rustlings Road Surger,,,Annie Stones,annie.stones@nhs.net,"105 Rustlings Road
+Sheffield South Yorkshire S11 7AB",Invoice,Annual,Remote,,,,,,,,,,,,,
+Jai Medical NCL,,,SMMS,900,2026-05-11,Renewal,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,suresh.vaghela@nhs.net,2025-07-31,,2026-05-18,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre
+114 Edgwarebury Lane
+Edgwaare
+Middlesex
+HA8 8NB",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
+Jai Medical Centre Brent,,,SMMS,900,2026-05-11,Renewal,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,suresh.vaghela@nhs.net,2025-07-31,,2026-05-18,,,,,2026-05-15,2027-05-14,,Suresh Suresh Vaghela,,,Suresh Vaghela,suresh.vaghela@nhs.net,"Jai Medical Centre (Brent)
+82 Staglane
+Edgware
+Middlesex
+HA8 5LP",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
+Wandsworth Medical Centre,,,SMMS,200,2026-05-12,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,tania.schroeder@nhs.net,2026-05-11,,2026-05-15,,,,,,,,Wandsworth Medical Centre,,,Tauseef Ahmed,tauseef.ahmed@capshire.com,"90-92 Garratt Lane Wandsworth London
+SW18 4DD",Invoice,Annual,Remote,,,,,,,,,,,,,
+Newcastle Outer West PCN,,,SMMS,3960,2026-05-12,New,Won (100%),Contract Sent,Richard Stoddart,PCN,Personal email campaign,100%,In forecast,,lisa.wooton@nhs.net,2026-04-27,,2026-05-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Station Lane Medical Centre,,,SMMS,660,2026-05-12,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,In forecast,,amanda.baxter@nhs.net,2026-03-31,,2026-05-18,,,,,,,,Station Lane Medical Centr,,,Amanda Baxter,amanda.baxter@nhs.net,"Station Lane
+Featherstone West Yorkshire WF7 6J",Invoice,Annual,Remote,,,,,,,,,,,,,
+Eason Pharmacy,,,Pharmacy SMMS,600,2026-05-12,Renewal,Won (100%),Contract Sent,Richard Stoddart,Pharmacy,Employee Referral,100%,In forecast,,info@easonpharmacy.com,,,2026-05-26,,,,,2025-06-16,,,Kilcrona Ltd,,,Kieran Eason,info@easonpharmacy.com,"215a Watling Street, Tamworth, B775BB",Invoice,Annual,Remote,,,,,,,,,,,,,Richard Stoddart
+North Riding PCN,,,SMMS,780,2026-05-13,New,Won (100%),Contract Sent,Liam Wright,Practice,Existing customer relations,100%,,,helen.cheetham2@nhs.net,2026-05-13,,2026-05-18,,,,,,,,North Riding Primary Care Network,,,Helen Cheetham,helen.cheetham2@nhs.net,Ampleforth and Hovingham Surgeries Back Lane North Yorkshire YO62 4EF,DD,Monthly,Remote,,,,,,,,,,,,,
+Aspiro,,,SMMS,600,2026-05-13,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Word of mouth,100%,In forecast,,sam.harper6@nhs.net,2026-05-08,,2026-05-21,,,,,,,,Aspiro Healthcare,,,Sam Mahon,northantsicb.woodsend.finance@nhs.net,"Hollybrook Medical Centre, Hollybrook Way, Littleover
+Derby Derbyshire DE233TX",,,,,,,,,,,,,,,,
+Tudor Lodge Health Centre,,,List Growth,24000,2026-05-14,New,Won (100%),Closed Won,Cameron Booth,Practice,Marketing campaign,100%,In forecast,,,2026-04-27,2026-04-22,,,,,,2026-05-25,2027-05-25,,Prash THURAIRATNAM,,,Prash THURAIRATNAM,p.thurairatnam@nhs.net,"8C Victoria Dr, London SW19 6AE, United Kingdom",DD,Monthly,Remote,,,,,,,,,,,,,
+Enderley Road Medical Centre,,,SMMS,600,2026-05-14,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Website,100%,NOT in forecast,,m.raji1@nhs.net,2026-04-30,,2026-05-22,,,,,,,,Enderley Road Medical Centr,,,Mostafa Raji,m.raji1@nhs.net,"41-45 Enderley Road
+Harrow UK HA3 5HF",Invoice,Annual,Remote,,,,,,,,,,,,,
+Matt Orr Medical Ltd,,,AI,600,2026-05-14,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Existing customer relations,100%,,,admin@orrmedical.co.uk,2026-05-13,,2026-05-20,,,,,,,,Orr Medical Ltd,,,Matt Orr,m.raji1@nhs.net - admin@orrmedical.co.uk,"48 Cross Keys Drive, Chorley, PR6 7TF",Invoice,Annual,Remote,,,,,,,,,,,,,
 Lancs and South Cumbria - Workforce Retention 4.0,,,,0,2021-01-01,,Do not use Lost (0%),Closed Lost,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Print Search - Boels Leaflets & Man City Shirt Box,,,Creative,200,2021-01-01,,Do not use Lost (0%),Closed Lost,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,Anna.ford@printsearch.co.uk,,,,,,,,,
 Newcastle - VGC vouchers,,,,600,2021-01-01,,Do not use Lost (0%),Closed Lost,,,,,,,,2022-01-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -2672,4 +2721,16 @@ Tavyside Health Centre,,,List Growth,18000,2026-05-06,New,Proposal Sent,Closed L
 Rustlings Road Surgery,,,List Growth,18000,2026-05-07,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-27,2026-04-23,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 Hythe Medical Centre,,,List Growth,30000,2026-05-07,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,50%,NOT in forecast,,,2026-04-27,2026-04-27,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
 The Greyswood practice,,,List Growth,18000,2026-05-07,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-27,2026-04-23,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Fairfield Medical Centre,,,List Growth,18000,2026-05-08,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,50%,In forecast,,,,2026-05-07,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Fairfield Medical Centre,,,List Growth,18000,2026-05-08,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,50%,NOT in forecast,,,,2026-05-07,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Victoria Road Surgery,,,List Growth,18000,2026-05-11,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,50%,NOT in forecast,,,2026-04-27,2026-04-21,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Woodseats Medical Centre,,,List Growth,24000,2026-05-11,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,10%,NOT in forecast,,,,2026-05-07,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Whitewater Health,,,List Growth,24000,2026-05-12,New,Proposal Sent,Closed Lost,Dillon Sykes,Practice,Marketing campaign,10%,NOT in forecast,,,2026-04-28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mayfield Medical Practice_IMMS_Part Two,,,Income Gen,6000,2026-05-12,New,Proposal Sent,Closed Lost,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-11-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Magdalen Medical Practice_IMMS_Part Two,,,Income Gen,6000,2026-05-12,New,Proposal Sent,Closed Lost,Tom Owen,Practice,Existing customer relations,10%,NOT in forecast,,,2025-11-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Severn Fields,,,Income Gen,995,2026-05-12,New,Advanced Discussion,Closed Lost,Tom Owen,PCN,Marketing campaign,10%,NOT in forecast,,,2024-09-30,,2025-05-15,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Hill Brow Partnership - IMMS_ Part Two,,,Income Gen,6000,2026-05-12,New,Advanced Discussion,Closed Lost,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-10-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mayfield Medical Practice_IMMS_Part One,,,Income Gen,250.0,2026-05-12,New,Proposal Sent,Closed Lost,Tom Owen,Practice,Marketing campaign,10%,NOT in forecast,,,2025-10-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heathbridge Practice,,,List Growth,22800,2026-05-12,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Webinar,50%,NOT in forecast,,,2026-04-27,2026-04-16,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
+Stretton Medical,,,SMMS,300,2026-05-13,New,Advanced Discussion,Closed Lost,Richard Stoddart,Practice,Personal email campaign,10%,NOT in forecast,,lauren.haslam2@nhs.net,2026-03-18,,2026-05-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brocklebank PCN,,,List Growth,24000,2026-05-14,New,Proposal Sent,Closed Lost,Dillon Sykes,Practice,Marketing campaign,50%,NOT in forecast,,,2026-04-27,,,,,,,,,,,,,,yasotharan.paramesparan@nhs.net,,Invoice,Monthly,Remote,,,,,,,,,,,,,
+Crown Medical Practice,,,List Growth,24000,2026-05-14,New,Proposal Sent,Closed Lost,Cameron Booth,Practice,Marketing campaign,50%,NOT in forecast,,,2026-04-27,2026-04-22,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
