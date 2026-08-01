@@ -30,7 +30,7 @@ Mayflower Way, Wombwel",Invoice,One off,Remote,,,,,,,,,,,,,
 Southampton West PCN,,,SMMS,Patient Communications,4491,2027-01-01,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,,2025-12-05,,2026-10-01,,,,,2027-01-01,2027-12-31,,Matt Austin-Bailey,,,Matt Austin-Bailey,matt.austin-bailey@nhs.net,"Southampton West PCN Limited
 355 Shirley Road
 Southampton Hampshire SO153JD",Invoice,Annual,Remote,,,,,,,,,,,,,
-Coco PCN 2,,,SMMS,Patient Communications,900,2026-09-30,New,Proposal Sent,Contract Sent,Richard Stoddart,Practice,Cold Email,50%,In forecast,,melissa.shiel@nhs.net,2026-07-15,,2026-08-07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Coco PCN 2,,,SMMS,Patient Communications,900,2026-09-30,New,Proposal Sent,Contract Sent,Richard Stoddart,Practice,Cold Email,50%,In forecast,,melissa.shiel@nhs.net,2026-07-15,,2026-08-11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Grayshott Surgery,,,SMMS,Patient Communications,500,2027-06-30,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,80%,In forecast,,sally.foster2@nhs.net,2026-06-30,,2027-04-01,,,,,,,,Grayshott Surgery,,,Kellie West,kellie.west@nhs.net,Boundary Road Hindhead Surrey GU26 6TY,Invoice,Annual,Remote,,,,,,,,,,,,,
 Collingham Pharmacy,,,SMMS/AI,Patient Communications,630,2026-08-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,50%,In forecast,,,2025-09-09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 COCO PCN,,,SMMS,Patient Communications,499,2027-05-21,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,,2025-11-28,,2027-02-01,,,,,2026-05-22,2027-05-21,,Melissa Shiel,,,Melissa Shiel,melissa.shiel@nhs.net,"Coco PCN
@@ -93,7 +93,7 @@ HA8 8NB",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
 Brixton Hill Group Practice,,,List Growth,Patient Communications,30000,2026-08-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,LG2 webinar,50%,In forecast,,,2026-06-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Health Checks - Birmingham City Council,,,Public Health,Digital & Transformation,70000,2026-08-14,New,Proposal Sent,New Opportunity,,Local Authority,Tender,10%,NOT in forecast,,,2026-06-04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Botolph Bridge Community Health Centre,,,SMMS,Patient Communications,1200,2026-08-31,New,Advanced Discussion,Contract Sent,Richard Stoddart,Practice,Existing customer relations,10%,NOT in forecast,,casey.harding@nhs.net,2026-05-26,,2026-08-07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Wyvern Health PCN,,,SMMS,Patient Communications,2500,2026-08-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,renata.smolskyte1@nhs.net,2025-09-22,,2026-08-04,,,,,2026-09-23,2027-09-23,,Renata Smolskyte,,,Renata Smolskyte,renata.smolskyte1@nhs.net,"Wyvern Health PCN
+Wyvern Health PCN,,,SMMS,Patient Communications,2500,2026-08-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,renata.smolskyte1@nhs.net,2025-09-22,,2026-08-07,,,,,2026-09-23,2027-09-23,,Renata Smolskyte,,,Renata Smolskyte,renata.smolskyte1@nhs.net,"Wyvern Health PCN
 Priory Road Medical Centre
 Priory Road
 Wiltshire
@@ -106,7 +106,7 @@ Falcon Road Website,,,Creative,Patient Communications,500,2026-08-31,New,Proposa
 Sid Valley Practice,,,SMMS,Patient Communications,480,2027-05-28,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Personal email campaign,50%,In forecast,,jessie.hay@nhs.net,2026-05-28,,2027-03-01,,,,,,,,Sid Valley Practice,,,Jessie Hay,jessie.hay@nhs.net,"Beacon Medical Practice, Sedemuda Road,
 Sidmouth Devon EX10 9YA",Invoice,Monthly,Remote,,,,,,,,,,,,,
 Bridge Road Surgery,,,List Growth,Patient Communications,18000,2026-08-31,New,Proposal Sent,New Opportunity,Cameron Booth,Practice,LG2 campaign,10%,NOT in forecast,,,2026-07-08,2026-07-03,,,,,,,,,,,,,,,DD,Monthly,Remote,,,,,,,,,,,,,
-Richmondshire PCN,,,SMMS,Patient Communications,4800,2026-09-30,New,Advanced Discussion,New Opportunity,Richard Stoddart,PCN,Word of mouth,50%,In forecast,,k.wade2@nhs.net,2026-05-27,,2026-08-06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Richmondshire PCN,,,SMMS,Patient Communications,4800,2026-09-30,New,Advanced Discussion,New Opportunity,Richard Stoddart,PCN,Word of mouth,50%,In forecast,,k.wade2@nhs.net,2026-05-27,,2026-08-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 The Museum Practice,,,List Growth,Patient Communications,18000,2026-08-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,LG2 campaign,10%,NOT in forecast,,,2026-06-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 North West Leadership - Animations,,,Creative,Patient Communications,1800,2026-09-30,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,ICB,Existing customer relations,10%,NOT in forecast,,,2026-04-29,,2026-11-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Crocus Medical Practice,,,SMMS,Patient Communications,660,2027-06-30,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,s.machale@nhs.net,2026-06-24,,2027-03-01,,,,,,,,Crocus Medical Practice,,,Samantha Organ,samantha.organ@nhs.net,Radwinter Road Saffron Walden Essex CB11 3HY,Invoice,Annual,Remote,,,,,,,,,,,,,
@@ -212,7 +212,7 @@ Beechwood Surgery,,,SMMS,Patient Communications,300,2027-01-01,Renewal,Initial D
 Thornton Cleveleys Lancs FY5 5HH",Invoice,Annual,Remote,,,,,,,,,,,,,
 Lancashire County Council -Sakthi phase 2,,,Public Health,Digital & Transformation,500000,2026-09-01,New,Initial Discussion,In Conversation,Dillon Sykes,Local Authority,Existing customer relations,10%,NOT in forecast,,,2026-01-16,,,,,,,,,,,,,,,,,,Face to Face,,,,,,,,,,,,,
 The Royton Crompton Family Practice,,,SMMS/AI,Patient Communications,630,2026-08-31,New,Initial Discussion,New Opportunity,Liam Wright,Practice,Existing customer relations,10%,NOT in forecast,,,2025-08-01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Copse Medical,,,SMMS,Patient Communications,720,2026-08-31,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,nafisa.suleman@nhs.net,2026-06-24,,2026-08-03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Copse Medical,,,SMMS,Patient Communications,720,2026-08-31,New,Initial Discussion,New Opportunity,Richard Stoddart,Practice,Cold Email,50%,In forecast,,nafisa.suleman@nhs.net,2026-06-24,,2026-08-07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Priory Fields Surgery,,,List Growth,Patient Communications,24000,2027-05-11,Renewal,Initial Discussion,New Opportunity,Cameron Booth,Practice,LG1 webinar,50%,In forecast,,,2026-07-08,,,,,,,2027-04-30,2028-05-01,,Chelsea Wilson,,,Chelsea Wilson,chelsea.wilson@nhs.net,"Priory Fields Partnership
 Doctors Surgery, Nursery Road
 Huntingdon Cambs PE29 3RL",DD,Monthly,Remote,,,,,,,,,,,,,
