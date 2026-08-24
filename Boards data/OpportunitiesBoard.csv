@@ -90,7 +90,7 @@ Middlesex
 HA8 8NB",Invoice,Annual,Remote,,,,suresh.vaghela@nhs.net,,,,,,,,,
 Brixton Hill Group Practice,,,List Growth,Patient Communications,30000,2026-08-31,New,Proposal Sent,New Opportunity,Tom Owen,Practice,LG2 webinar,50%,In forecast,,,2026-06-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Health Checks - Birmingham City Council,,,Public Health,Digital & Transformation,70000,2026-08-14,New,Proposal Sent,New Opportunity,,Local Authority,Tender,10%,NOT in forecast,,,2026-06-04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Wyvern Health PCN,,,SMMS,Patient Communications,600,2026-10-31,Renewal,Initial Discussion,Contract Sent,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,renata.smolskyte1@nhs.net,2025-09-22,,2026-08-24,,,,,2026-09-23,2027-09-23,,Renata Smolskyte,,,Renata Smolskyte,renata.smolskyte1@nhs.net,"Wyvern Health PCN
+Wyvern Health PCN,,,SMMS,Patient Communications,600,2027-08-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,renata.smolskyte1@nhs.net,2026-08-23,,2027-06-01,,,,,2026-09-23,2027-09-23,,Renata Smolskyte,,,Renata Smolskyte,renata.smolskyte1@nhs.net,"Wyvern Health PCN
 Priory Road Medical Centre
 Priory Road
 Wiltshire
@@ -356,7 +356,7 @@ Bradford West Yorkshire BD7 3JX",Invoice,Annual,Remote,,,,,,,,,,,,,
 Pendle East PCN,,,SMMS,Patient Communications,3000,2026-10-31,Renewal,Initial Discussion,New Opportunity,Richard Stoddart,PCN,Word of mouth,10%,NOT in forecast,,heather.porter8@nhs.net,2026-07-27,,2026-08-28,,,,,2024-10-01,2024-12-31,,Pendle East PCN,,,,,,Invoice,Monthly,Both,,,,,,,,,,,,,
 Lambeth Walk Group Practice,,,List Growth,Patient Communications,9000,2026-09-30,New,Proposal Sent,New Opportunity,Tom Owen,Practice,LG2 campaign,10%,NOT in forecast,,patricia.pyl@nhs.net,2026-07-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Bosvena Health,,,SMMS,Patient Communications,300,2026-10-31,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Word of mouth,50%,In forecast,,michelle.hill33@nhs.net,2026-08-03,,2026-08-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Heathbridge Practice,,,SMMS,Patient Communications,900,2026-10-31,New,Initial Discussion,Meeting Booked,Richard Stoddart,Practice,Word of mouth,50%,NOT in forecast,,paulhallett@nhs.net,2026-08-03,,2026-08-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heathbridge Practice,,,SMMS,Patient Communications,900,2026-10-31,New,Initial Discussion,Meeting Booked,Richard Stoddart,Practice,Word of mouth,50%,NOT in forecast,,paulhallett@nhs.net,2026-08-03,,2026-08-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Sunderland GP Alliance,,,SMMS/AI,Patient Communications,1,2026-10-31,New,Proposal Sent,New Opportunity,Richard Stoddart,GP Federation,Webinar,10%,NOT in forecast,,joshua.stoddart@nhs.net,2026-08-04,,2026-08-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Branch End Surgery,,,SMMS/AI,Patient Communications,750,2026-10-31,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Webinar,10%,NOT in forecast,,alexandra.storey5@nhs.net,2026-08-04,,2026-08-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Islington GP Federation,,,SMMS/AI,Patient Communications,1,2026-09-30,New,Proposal Sent,New Opportunity,Richard Stoddart,Practice,Webinar,10%,NOT in forecast,,phoebe.alexander@nhs.net,2026-08-04,,2026-09-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1231,6 +1231,11 @@ Gosport Central PCN,,,SMMS,Patient Communications,3140,2026-08-14,New,Won (100%)
 Copsewood Medical,,,SMMS,Patient Communications,480,2026-08-13,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Cold Email,50%,In forecast,,nafisa.suleman@nhs.net,2026-06-24,,,,,,,,,,Copeswood Medical Centre,,,Nafisa Suleman,nafisa.suleman@nhs.net,95 Momus Boulevard West midlands CV2 5NB,DD,Monthly,Remote,,,,,,,,,,,,,
 Hughenden Valley,,,SMMS,Patient Communications,2400,2026-08-17,New,Won (100%),Contract Sent,Richard Stoddart,Practice,Word of mouth,50%,,,a.baheerathan2@nhs.net,2026-08-10,,2026-08-28,,,,,,,,Hughenden Valley Surgery,,,AJ Baheerathan,a.baheerathan2@nhs.net,"Valley Rd, Hughenden Valley, High Wycombe Valley Rd Buckinghamshire HP14 4LG",DD,Monthly,Remote,,,,,,,,,,,,,
 Sele Medical Practice,,,List Growth,Patient Communications,9000,2026-08-20,New,Won (100%),Closed Won,Dillon Sykes,Practice,LG2 campaign,80%,In forecast,,,2026-07-17,,,,,,,,,,,,,,,,Invoice,Monthly,Remote,,,,,,,,,,,,,
+Wyvern Health PCN,,,SMMS,Patient Communications,600,2026-08-23,Renewal,Won (100%),Contract Sent,Richard Stoddart,PCN,Existing customer relations,50%,In forecast,,renata.smolskyte1@nhs.net,2025-09-22,,2026-08-24,,,,,2026-09-23,2027-09-23,,Renata Smolskyte,,,Renata Smolskyte,renata.smolskyte1@nhs.net,"Wyvern Health PCN
+Priory Road Medical Centre
+Priory Road
+Wiltshire
+SN3 2EZ",Invoice,Annual,Remote,,,,renata.smolskyte1@nhs.net,,,,,,,,,
 The Museum Practice,,,List Growth,Patient Communications,18000,2026-08-06,New,Proposal Sent,Closed Lost,Tom Owen,Practice,LG2 campaign,10%,NOT in forecast,,,2026-06-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Peel House Medical,,,List Growth,Patient Communications,30000,2026-08-11,New,Proposal Sent,Closed Lost,Tom Owen,Practice,LG1 campaign,10%,NOT in forecast,,,2026-05-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Grove Surgery,,,List Growth,Patient Communications,30000,2026-08-11,New,Proposal Sent,Closed Lost,Tom Owen,Practice,LG1 campaign,10%,NOT in forecast,,,2026-05-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
